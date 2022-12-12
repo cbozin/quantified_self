@@ -6,4 +6,4 @@
 # Description: Config file storing API key MeteoStat           
 ##############################################
 
-key = {"x-rapidapi-key": "e83e66981fmsha238ed26ca78a86p1e162ejsn0c36e5ed22f5" }
+key = {"x-rapidapi-key": "cd207be3d5mshe9decce37827531p1c3d13jsn223d2c79b4d9" }
