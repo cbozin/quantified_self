@@ -191,28 +191,23 @@ def split_col(df2, col_name, size0):
 
 def get_time_elapsed(df):
     '''
+    This function takes in a dataframe,
+    it then gets the difference between
+    the End timestamp and Start timestamp
+    columns, converts this to minutes, and 
+    returns a series.
     '''
-    start_time_lst = []
-    end_time_lst = []
+    # get difference of the timestamps
+    dif_ser = df["End Timestamp"] - df["Start Timestamp"]
 
-    for item in df["Start Timestamp"]:
-        start_time_lst.append(item.time()) 
+    dif_sec_lst= []
 
-    for item in df["End Timestamp"]:
-        end_time_lst.append(item.time())
-    end_time_lst
+    #make a list of the total seconds of each time difference
+    for i in range(dif_ser.size):
+        dif_sec_lst.append(dif_ser.iloc[i].total_seconds())
 
-    time_lst = []
-    for i in range(len(start_time_lst)):
-        
-        time_lst.append([end_time_lst[i].hour - start_time_lst[i].hour, end_time_lst[i].minute - start_time_lst[i].minute, end_time_lst[i].second - start_time_lst[i].second])
+    #convert to minutes, make series
+    dif_ser_min = pd.Series(dif_sec_lst)
+    dif_ser_min/= 60
 
-    time_lst_min = []
-
-    #calculate time elapsed in minutes
-    for i in range(len(time_lst)):
-        time_lst_min.append(time_lst[i][0]*60 + time_lst[i][1] + time_lst[i][2]/60)
-
-    time_lst_min
-    
-    return time_lst_min
+    return dif_ser_min
