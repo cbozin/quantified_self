@@ -3,6 +3,22 @@ import pandas as pd
 import json
 import numpy as np
 
+def load_data():
+    '''
+    This function creates a
+    dataframe using my Semantic Location data from
+    January-August of 2022. It returns the dataframe
+    '''
+    jan_aug_df = pd.DataFrame()
+
+    months = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST"]
+
+    # concatenate data from all months
+    for item in months:
+        jan_aug_df = pd.concat([jan_aug_df, pd.read_json("../Semantic Location History/2022/2022_" + item + ".json")])
+
+    return jan_aug_df
+
 def get_start_end(df, start_date, end_date):
     '''
     '''
@@ -65,28 +81,20 @@ def fix_lat_lon(df, col, decimal_place):
     return fixed_lst
 
 
-
-  
-def load_2d_list(daily_weather_json):
+def make_date_col(df):
     '''
-    This function takes a daily weather JSON object
-    recieved using the MeteoStat API and loads the daily weather 
-    data into a 2D list (each day is a list). The list is returned.
     '''
-    # get the data portion as a list
-    daily_weather_data_lst = daily_weather_json["data"]
+    date_lst = []
 
-    # initialize 2D list to load values into
-    daily_weather_2D_lst = []
+    for item in df["Start Timestamp"]:
+        date_lst.append((item.date().strftime("%Y-%m-%d")))
+    date_lst
 
-    #load the values of each dictionary
-    # (one dictionary per day) into the 2D list
-    for dict in daily_weather_data_lst:
-        
-        daily_weather_2D_lst.append(dict.values())
-    
+    return date_lst
 
-    return daily_weather_2D_lst
+
+
+
 
 def get_time_elapsed(df):
     '''
