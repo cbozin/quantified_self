@@ -1,13 +1,18 @@
 ##############################################
 # Programmer : Carolyn Bozin
 # Class      : CPSC222, Fall 2022
-# Assignment : 
-# Date       : 
-# Description:      
+# Assignment : quantified self
+# Date       :  12/13/22
+# Description:  utility functions   
 ##############################################
 
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+from sklearn import tree
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+import matplotlib.pyplot as plt
+
 
 def load_data():
     '''
@@ -211,3 +216,75 @@ def get_time_elapsed(df):
     dif_ser_min/= 60
 
     return dif_ser_min
+
+def dist_plot(first_half, second_half):
+    '''
+    This function takes in two dataframes, 
+    it then groups them by date and plots
+    daily total distance (km) per activity segment
+    ''' 
+    # convert from m to km
+    daily_total_distance_first= first_half.groupby("Date")["Distance (m)"].sum()
+    daily_total_distance_first /= 1000
+
+    daily_total_distance_last= second_half.groupby("Date")["Distance (m)"].sum()
+    daily_total_distance_last /= 1000
+
+    plt.figure()
+
+    #labels
+    plt.title("Daily Total Distance (km) Spent on Activity Segments in Madrid")
+    plt.xlabel("Date")
+    plt.ylabel("Distance (km)")
+    plt.xticks([])
+
+    #plot
+    plt.scatter(daily_total_distance_first.index, daily_total_distance_first, color="red")
+    plt.scatter(daily_total_distance_last.index, daily_total_distance_last, color="blue")
+    plt.show()
+
+
+def make_weekend_col(df):
+    '''
+    this function makes
+    a column that labels weekends
+    and weekdays
+    '''
+    weekend_lst = []
+    for i in range(df["Activity"].size):
+        if(df["Day of Week"].iloc[i] == "Friday" or df["Day of Week"].iloc[i] == "Saturday" or df["Day of Week"].iloc[i] == "Sunday"):
+            weekend_lst.append(True)
+        else:
+            weekend_lst.append(False)
+
+    return weekend_lst
+
+def kNN(X_train, y_train, X_test, y_test):
+    '''
+    function to fit a kNN classifier
+    '''
+    
+    knn_clf = KNeighborsClassifier(n_neighbors=2, metric="euclidean")
+
+    knn_clf.fit(X_train, y_train)
+    y_predicted = knn_clf.predict(X_test)
+
+    acc = accuracy_score(y_test, y_predicted)
+    print("accuracy :", acc)
+
+
+def decision_tree(X, X_train, y_train, X_test, y_test):
+    '''
+    function to fit and plot
+    a decision tree
+    '''
+    dt_clf = tree.DecisionTreeClassifier(max_depth=3, random_state=0)
+    dt_clf.fit(X_train, y_train) # "train"
+    y_predicted = dt_clf.predict(X_test)
+    acc = accuracy_score(y_test, y_predicted)
+    #print(y_predicted)
+    print("accuracy :", acc)
+
+    #plot tree
+    plt.figure(figsize=[20, 20])
+    tree.plot_tree(dt_clf, feature_names=X.columns, class_names={True:"Weekend", False:"Weekday"}, filled=True)
