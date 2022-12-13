@@ -1,7 +1,8 @@
 # Quantified Self  
-Author: Carolyn Bozin
+Author: Carolyn Bozin  
 Date Updated : 12/12/2022
 
+### Description
 A project where I perform Exploratory Data Analysis and Machine Learning on my Google Maps Semantic Location data. The bulk of the work is done in the Jupyter Notebook QuantifiedSelf.ipynb.
 
 ### Project Dependencies
