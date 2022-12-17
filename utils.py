@@ -26,7 +26,7 @@ def load_data():
 
     # concatenate data from all months
     for item in months:
-        jan_aug_df = pd.concat([jan_aug_df, pd.read_json("../Semantic Location History/2022/2022_" + item + ".json")])
+        jan_aug_df = pd.concat([jan_aug_df, pd.read_json("Semantic Location History/2022/2022_" + item + ".json")])
 
     return jan_aug_df
 

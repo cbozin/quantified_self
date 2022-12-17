@@ -1,0 +1,4638 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476860610,
+        "longitudeE7": -1173908389
+      },
+      "duration": {
+        "startTimestamp": "2018-02-02T15:19:43.774Z",
+        "endTimestamp": "2018-02-02T15:42:53.423Z"
+      },
+      "distance": 11184,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.56347119275337
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.514488390427048
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.0698643181024017
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477005310,
+          "lngE7": -1174439086
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477005583,
+          "lngE7": -1174440591,
+          "accuracyMeters": 50,
+          "timestamp": "2018-02-02T15:30:13.487Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476860610,
+          "longitudeE7": -1173908389,
+          "accuracyMetres": 20
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-02T15:42:53.423Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.606186
+      },
+      "duration": {
+        "startTimestamp": "2018-02-02T15:42:53.423Z",
+        "endTimestamp": "2018-02-02T22:29:25.038Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476858656,
+      "centerLngE7": -1173911891,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 1.910054,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.20243363
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173890050,
+        "placeId": "ChIJj4grM9cYnlQRcMJxX0ktsoI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.06656011
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 0.045020394
+      }, {
+        "latitudeE7": 476841642,
+        "longitudeE7": -1173949104,
+        "placeId": "ChIJi46HDdEYnlQRmcSwpzS9Erk",
+        "address": "2824 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Renegade Towing",
+        "locationConfidence": 0.017805148
+      }, {
+        "latitudeE7": 476860520,
+        "longitudeE7": -1173949360,
+        "placeId": "ChIJffrwtHcinlQR5DRd4uZIF5Y",
+        "address": "3808 N Sullivan Rd #12p, Spokane Valley, WA 99216, USA",
+        "name": "LINC Foods",
+        "locationConfidence": 0.016829584
+      }, {
+        "latitudeE7": 476861120,
+        "longitudeE7": -1173947760,
+        "placeId": "ChIJnTeZOtgYnlQRkM0HzHz8Yqs",
+        "address": "3018 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Hopkins Auto Sales \u0026 Subaru Repair",
+        "locationConfidence": 0.0161774
+      }, {
+        "latitudeE7": 476857494,
+        "longitudeE7": -1173947929,
+        "placeId": "ChIJoYz7NNgYnlQRNPb8_wIok2k",
+        "address": "3012 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Carpet Remnant Outlet Inc",
+        "locationConfidence": 0.01527947
+      }, {
+        "latitudeE7": 476882955,
+        "longitudeE7": -1173953073,
+        "placeId": "ChIJDYcUBCgZnlQRaO-dewh3UA8",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "City Fuel",
+        "locationConfidence": 0.014511855
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 476324858,
+        "longitudeE7": -1174855461
+      },
+      "duration": {
+        "startTimestamp": "2018-02-02T22:29:25.038Z",
+        "endTimestamp": "2018-02-02T22:59:52.998Z"
+      },
+      "distance": 11918,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 93.7955041069718
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 3.7438226671167008
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.1105890567105718
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 476840286,
+          "lngE7": -1174477386
+        }, {
+          "latE7": 476320304,
+          "lngE7": -1174855499
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476842166,
+          "lngE7": -1174473208,
+          "accuracyMeters": 82,
+          "timestamp": "2018-02-02T22:47:12.323Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476324858,
+          "longitudeE7": -1174855461
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-02T22:59:52.998Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476325190,
+        "longitudeE7": -1174856930,
+        "placeId": "ChIJpYxaAeYXnlQRd2RWq0XOEcA",
+        "address": "5116 W Garden Springs Rd, Spokane, WA 99224-5324, United States",
+        "name": "Grace Slavic Baptist Church",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.37087
+      },
+      "duration": {
+        "startTimestamp": "2018-02-02T22:59:52.998Z",
+        "endTimestamp": "2018-02-02T23:50:19.394Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476324824,
+      "centerLngE7": -1174856600,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476343900,
+        "longitudeE7": -1174851050,
+        "placeId": "ChIJiUU_a-8XnlQRTCcfyhuQ9O8",
+        "address": "5010 W Garden Springs Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.78095734
+      }, {
+        "latitudeE7": 476312239,
+        "longitudeE7": -1174877863,
+        "placeId": "ChIJVahyNOYXnlQRSWs0DIwTvxM",
+        "address": "5325 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.4316504
+      }, {
+        "latitudeE7": 476316800,
+        "longitudeE7": -1174886760,
+        "placeId": "ChIJ3ZlU0-cXnlQRkqeRmoomfKM",
+        "address": "5321 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.4165218
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476325190,
+        "longitudeE7": -1174856930
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-02T23:50:19.394Z",
+        "endTimestamp": "2018-02-03T00:54:28.905Z"
+      },
+      "distance": 5994,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.55744718685848
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.300047805981981
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.8892456563050259
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476325073,
+          "lngE7": -1174862976
+        }, {
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477545930,
+          "longitudeE7": -1174845450
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-03T00:54:28.905Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "endLocation": {
+        "latitudeE7": 477104766,
+        "longitudeE7": -1174611846
+      },
+      "duration": {
+        "startTimestamp": "2018-02-03T00:54:28.905Z",
+        "endTimestamp": "2018-02-04T01:41:42.422Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477545035,
+          "lngE7": -1174887109,
+          "accuracyMeters": 500,
+          "timestamp": "2018-02-03T01:16:51.111Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 5622.406411791503
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477104766,
+        "longitudeE7": -1174611846
+      },
+      "endLocation": {
+        "latitudeE7": 477116643,
+        "longitudeE7": -1174617998
+      },
+      "duration": {
+        "startTimestamp": "2018-02-04T01:41:42.422Z",
+        "endTimestamp": "2018-02-04T01:48:23.403Z"
+      },
+      "distance": 139,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.02184380504725
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.830031016655577
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.5493815583169324
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477104415,
+          "lngE7": -1174616088
+        }, {
+          "latE7": 477114410,
+          "lngE7": -1174617614
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477238212,
+        "longitudeE7": -1174680979
+      },
+      "endLocation": {
+        "latitudeE7": 477247766,
+        "longitudeE7": -1174685930
+      },
+      "duration": {
+        "startTimestamp": "2018-02-04T22:02:07.027Z",
+        "endTimestamp": "2018-02-04T22:08:45.363Z"
+      },
+      "distance": 106,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.69232227834632
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.301401185692148
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.002638570182827
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477236480,
+          "lngE7": -1174683685
+        }, {
+          "latE7": 477242622,
+          "lngE7": -1174693908
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477247766,
+        "longitudeE7": -1174685930
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-04T22:08:45.363Z",
+        "endTimestamp": "2018-02-06T11:44:02.861Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477562830,
+          "lngE7": -1174849308,
+          "accuracyMeters": 42,
+          "timestamp": "2018-02-05T23:55:36.014Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3903.741876205698
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "endLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "duration": {
+        "startTimestamp": "2018-02-06T11:44:02.861Z",
+        "endTimestamp": "2018-02-06T15:33:48.805Z"
+      },
+      "distance": 10339,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.94104852520697
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.294518246214299
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.7042626428438128
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }, {
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476858215,
+          "longitudeE7": -1173915176,
+          "accuracyMetres": 1500
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-06T15:33:48.805Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 East Euclid Avenue, Spokane, Washington 99207, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 81.22457
+      },
+      "duration": {
+        "startTimestamp": "2018-02-06T15:33:48.805Z",
+        "endTimestamp": "2018-02-07T02:27:28.383Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476893336,
+      "centerLngE7": -1173944521,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476888190,
+        "longitudeE7": -1173948640,
+        "placeId": "ChIJdegYGigZnlQRkhePh-61e8E",
+        "address": "3304 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Pizza Hut",
+        "locationConfidence": 4.33426
+      }, {
+        "latitudeE7": 476885770,
+        "longitudeE7": -1173952440,
+        "placeId": "ChIJVcrUGigZnlQRjqQ6GFDmAvA",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 3.0641255
+      }, {
+        "latitudeE7": 476907050,
+        "longitudeE7": -1173951240,
+        "placeId": "ChIJuZ_EVygZnlQRh13sXD5iEUc",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Gordon",
+        "locationConfidence": 1.7333454
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 1.4926116
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJp9pZASgZnlQRhC_KpN4e6Jg",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "CONOCO",
+        "locationConfidence": 1.2191292
+      }, {
+        "latitudeE7": 476882955,
+        "longitudeE7": -1173953073,
+        "placeId": "ChIJDYcUBCgZnlQRaO-dewh3UA8",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "City Fuel",
+        "locationConfidence": 1.0435964
+      }, {
+        "latitudeE7": 476913592,
+        "longitudeE7": -1173947073,
+        "placeId": "ChIJ-Sv2AikZnlQRhHDw9oy-EZI",
+        "address": "3620 N Nevada St, Spokane, WA 99207, USA",
+        "name": "the 509 garage",
+        "locationConfidence": 0.8671542
+      }, {
+        "latitudeE7": 476921011,
+        "longitudeE7": -1173947255,
+        "placeId": "ChIJRa9QGCkZnlQRsUqeK5gheQM",
+        "address": "3716 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Kiev Market",
+        "locationConfidence": 0.8529196
+      }, {
+        "latitudeE7": 476884410,
+        "longitudeE7": -1173951390,
+        "placeId": "ChIJ6VmpBCgZnlQRh-qIhqDGisM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.8080403
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T02:27:28.383Z",
+        "endTimestamp": "2018-02-07T03:02:25.607Z"
+      },
+      "distance": 676,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.20592678379253
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.5016798878041833
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.3701962071747633
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }, {
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477545930,
+          "longitudeE7": -1174845450,
+          "accuracyMetres": 1000
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-07T03:02:25.607Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 West Howesdale Drive, Spokane, Washington 99208-8605, United States",
+        "name": "Vadim Dimov",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 70.91705
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T03:02:25.607Z",
+        "endTimestamp": "2018-02-07T06:50:59.608Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477529500,
+      "centerLngE7": -1174876250,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477518901,
+        "longitudeE7": -1174842560,
+        "placeId": "ChIJY23EWAobnlQRdUXV-vqlg4c",
+        "address": "5015 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Pilgrim Pathways",
+        "locationConfidence": 12.841342
+      }, {
+        "latitudeE7": 477528382,
+        "longitudeE7": -1174891219,
+        "placeId": "ChIJ64gz3gsbnlQR5TJwOWYEBRQ",
+        "name": "Mary Kay Cosmetics",
+        "locationConfidence": 9.127339
+      }, {
+        "latitudeE7": 477522800,
+        "longitudeE7": -1174880630,
+        "placeId": "ChIJP50O0QsbnlQR2p-sKbSt2IQ",
+        "name": "McCullough Construction LLC",
+        "locationConfidence": 1.7808152
+      }, {
+        "latitudeE7": 477527140,
+        "longitudeE7": -1174881385,
+        "placeId": "ChIJjcbT2gsbnlQRRhsp__hJfzM",
+        "name": "Linchpin Studios",
+        "locationConfidence": 1.1495472
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 1.0323763
+      }, {
+        "latitudeE7": 477540860,
+        "longitudeE7": -1174919820,
+        "placeId": "ChIJp29psA4bnlQR7GIRYfWlZRY",
+        "address": "602 N Havana St, Spokane Valley, WA 99212, USA",
+        "name": "Indians Baseball Booster Club",
+        "locationConfidence": 1.0307143
+      }, {
+        "latitudeE7": 477534367,
+        "longitudeE7": -1174880339,
+        "placeId": "ChIJqWdr6wsbnlQReAsUGtvPM4U",
+        "address": "10509 N Woodridge Ct, Spokane, WA 99208, USA",
+        "locationConfidence": 0.6410042
+      }, {
+        "latitudeE7": 477514227,
+        "longitudeE7": -1174852704,
+        "placeId": "ChIJzWBPQAobnlQRPDkGUnefzPU",
+        "name": "Agape Events",
+        "locationConfidence": 0.44060385
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.42908457
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 56,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "endLocation": {
+        "latitudeE7": 476893640,
+        "longitudeE7": -1173947103
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T06:50:59.608Z",
+        "endTimestamp": "2018-02-07T15:33:57.782Z"
+      },
+      "distance": 923,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.86286908483854
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.281986269825266
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.000712734851884
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }, {
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476893640,
+          "longitudeE7": -1173947103,
+          "accuracyMetres": 1500
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-07T15:37:59.779Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 East Euclid Avenue, Spokane, Washington 99207, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 88.0017
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T15:33:57.782Z",
+        "endTimestamp": "2018-02-07T21:49:10.944Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476893832,
+      "centerLngE7": -1173945310,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476888190,
+        "longitudeE7": -1173948640,
+        "placeId": "ChIJdegYGigZnlQRkhePh-61e8E",
+        "address": "3304 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Pizza Hut",
+        "locationConfidence": 3.2006075
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 1.809194
+      }, {
+        "latitudeE7": 476882955,
+        "longitudeE7": -1173953073,
+        "placeId": "ChIJDYcUBCgZnlQRaO-dewh3UA8",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "City Fuel",
+        "locationConfidence": 0.91829216
+      }, {
+        "latitudeE7": 476885770,
+        "longitudeE7": -1173952440,
+        "placeId": "ChIJVcrUGigZnlQRjqQ6GFDmAvA",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.8671667
+      }, {
+        "latitudeE7": 476884410,
+        "longitudeE7": -1173951390,
+        "placeId": "ChIJ6VmpBCgZnlQRh-qIhqDGisM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.7996449
+      }, {
+        "latitudeE7": 476907050,
+        "longitudeE7": -1173951240,
+        "placeId": "ChIJuZ_EVygZnlQRh13sXD5iEUc",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Gordon",
+        "locationConfidence": 0.7323849
+      }, {
+        "latitudeE7": 476919067,
+        "longitudeE7": -1173970867,
+        "placeId": "ChIJiakh6CgZnlQRsEhsUh8rTZ0",
+        "address": "800 E Providence Ave, Spokane, WA 99207, USA",
+        "name": "Longfellow Elementary",
+        "locationConfidence": 0.6581574
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJA80EAygZnlQRyw1ScUQRjUI",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Super Quickstop",
+        "locationConfidence": 0.39960888
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJp9pZASgZnlQRhC_KpN4e6Jg",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "CONOCO",
+        "locationConfidence": 0.37699693
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "endLocation": {
+        "latitudeE7": 476324491,
+        "longitudeE7": -1174855539
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T21:49:10.944Z",
+        "endTimestamp": "2018-02-07T22:55:34.613Z"
+      },
+      "distance": 10324,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.91462517176905
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.1475035775474782
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.7045537416723064
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }, {
+          "latE7": 476845855,
+          "lngE7": -1174479217
+        }, {
+          "latE7": 476320304,
+          "lngE7": -1174855651
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476829545,
+          "lngE7": -1174442620,
+          "accuracyMeters": 63,
+          "timestamp": "2018-02-07T22:43:13.506Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476324491,
+          "longitudeE7": -1174855539,
+          "accuracyMetres": 50
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-07T22:55:34.613Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476325190,
+        "longitudeE7": -1174856930,
+        "placeId": "ChIJpYxaAeYXnlQRd2RWq0XOEcA",
+        "address": "5116 W Garden Springs Rd, Spokane, WA 99224-5324, United States",
+        "name": "Grace Slavic Baptist Church",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.9504
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T22:55:34.613Z",
+        "endTimestamp": "2018-02-07T23:20:21.284Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476324031,
+      "centerLngE7": -1174857631,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476314030,
+        "longitudeE7": -1174898040,
+        "placeId": "ChIJ-2rY2-cXnlQRKRUtsKqNuAo",
+        "address": "5411 W Lawton Rd, Spokane, WA 99224, USA",
+        "name": "Laserfiles Inc",
+        "locationConfidence": 0.7593356
+      }, {
+        "latitudeE7": 476343900,
+        "longitudeE7": -1174851050,
+        "placeId": "ChIJiUU_a-8XnlQRTCcfyhuQ9O8",
+        "address": "5010 W Garden Springs Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.6144653
+      }, {
+        "latitudeE7": 476312239,
+        "longitudeE7": -1174877863,
+        "placeId": "ChIJVahyNOYXnlQRSWs0DIwTvxM",
+        "address": "5325 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.3605363
+      }, {
+        "latitudeE7": 476316800,
+        "longitudeE7": -1174886760,
+        "placeId": "ChIJ3ZlU0-cXnlQRkqeRmoomfKM",
+        "address": "5321 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.3152638
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476322873,
+        "longitudeE7": -1174860019
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-07T23:20:21.284Z",
+        "endTimestamp": "2018-02-08T00:55:56.868Z"
+      },
+      "distance": 8148,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.89419409164095
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.4701048493402733
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.6220565156067116
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476322822,
+          "lngE7": -1174862899
+        }, {
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477545930,
+          "longitudeE7": -1174845450,
+          "accuracyMetres": 800
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-08T00:55:56.868Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 West Howesdale Drive, Spokane, Washington 99208-8605, United States",
+        "name": "Vadim Dimov",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 77.86556
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T00:55:56.868Z",
+        "endTimestamp": "2018-02-08T05:05:21.334Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477534867,
+      "centerLngE7": -1174880074,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477528382,
+        "longitudeE7": -1174891219,
+        "placeId": "ChIJ64gz3gsbnlQR5TJwOWYEBRQ",
+        "name": "Mary Kay Cosmetics",
+        "locationConfidence": 10.45909
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 3.9655452
+      }, {
+        "latitudeE7": 477540860,
+        "longitudeE7": -1174919820,
+        "placeId": "ChIJp29psA4bnlQR7GIRYfWlZRY",
+        "address": "602 N Havana St, Spokane Valley, WA 99212, USA",
+        "name": "Indians Baseball Booster Club",
+        "locationConfidence": 2.0583348
+      }, {
+        "latitudeE7": 477522800,
+        "longitudeE7": -1174880630,
+        "placeId": "ChIJP50O0QsbnlQR2p-sKbSt2IQ",
+        "name": "McCullough Construction LLC",
+        "locationConfidence": 1.472664
+      }, {
+        "latitudeE7": 477534367,
+        "longitudeE7": -1174880339,
+        "placeId": "ChIJqWdr6wsbnlQReAsUGtvPM4U",
+        "address": "10509 N Woodridge Ct, Spokane, WA 99208, USA",
+        "locationConfidence": 1.2294111
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 1.1770289
+      }, {
+        "latitudeE7": 477535951,
+        "longitudeE7": -1174887630,
+        "placeId": "ChIJeX857gsbnlQRTyTybILnDvA",
+        "address": "10517 N Woodridge Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 0.7188499
+      }, {
+        "latitudeE7": 477527140,
+        "longitudeE7": -1174881385,
+        "placeId": "ChIJjcbT2gsbnlQRRhsp__hJfzM",
+        "name": "Linchpin Studios",
+        "locationConfidence": 0.5496656
+      }, {
+        "latitudeE7": 477541157,
+        "longitudeE7": -1174890941,
+        "placeId": "ChIJVcAzCgwbnlQRAAEGm43saQ4",
+        "address": "5403 W Newbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 0.5038484
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476840444,
+        "longitudeE7": -1174505540
+      },
+      "endLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T16:51:17.461Z",
+        "endTimestamp": "2018-02-08T17:15:02.783Z"
+      },
+      "distance": 466,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.36023600282282
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.503357843725406
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.302539546707929
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476840438,
+          "lngE7": -1174508361
+        }, {
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476858215,
+          "longitudeE7": -1173915176,
+          "accuracyMetres": 77
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-08T17:15:02.783Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 East Euclid Avenue, Spokane, Washington 99207, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 86.17837
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T17:15:02.783Z",
+        "endTimestamp": "2018-02-08T22:01:39.726Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476892675,
+      "centerLngE7": -1173945058,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 3.473875
+      }, {
+        "latitudeE7": 476882955,
+        "longitudeE7": -1173953073,
+        "placeId": "ChIJDYcUBCgZnlQRaO-dewh3UA8",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "City Fuel",
+        "locationConfidence": 2.077111
+      }, {
+        "latitudeE7": 476888190,
+        "longitudeE7": -1173948640,
+        "placeId": "ChIJdegYGigZnlQRkhePh-61e8E",
+        "address": "3304 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Pizza Hut",
+        "locationConfidence": 1.3577554
+      }, {
+        "latitudeE7": 476885770,
+        "longitudeE7": -1173952440,
+        "placeId": "ChIJVcrUGigZnlQRjqQ6GFDmAvA",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 1.1854498
+      }, {
+        "latitudeE7": 476884410,
+        "longitudeE7": -1173951390,
+        "placeId": "ChIJ6VmpBCgZnlQRh-qIhqDGisM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.8547119
+      }, {
+        "latitudeE7": 476907050,
+        "longitudeE7": -1173951240,
+        "placeId": "ChIJuZ_EVygZnlQRh13sXD5iEUc",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Gordon",
+        "locationConfidence": 0.69388103
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 0.6855344
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJA80EAygZnlQRyw1ScUQRjUI",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Super Quickstop",
+        "locationConfidence": 0.6656103
+      }, {
+        "latitudeE7": 476919067,
+        "longitudeE7": -1173970867,
+        "placeId": "ChIJiakh6CgZnlQRsEhsUh8rTZ0",
+        "address": "800 E Providence Ave, Spokane, WA 99207, USA",
+        "name": "Longfellow Elementary",
+        "locationConfidence": 0.45847476
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "endLocation": {
+        "latitudeE7": 476325284,
+        "longitudeE7": -1174855436
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T22:01:39.726Z",
+        "endTimestamp": "2018-02-08T22:56:51.292Z"
+      },
+      "distance": 12956,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.37893832166985
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.807470446651731
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.436862624292902
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }, {
+          "latE7": 476843872,
+          "lngE7": -1174478607
+        }, {
+          "latE7": 476320304,
+          "lngE7": -1174855499
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476325284,
+          "longitudeE7": -1174855436,
+          "accuracyMetres": 35
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-08T22:56:51.292Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476325190,
+        "longitudeE7": -1174856930,
+        "placeId": "ChIJpYxaAeYXnlQRd2RWq0XOEcA",
+        "address": "5116 W Garden Springs Rd, Spokane, WA 99224-5324, United States",
+        "name": "Grace Slavic Baptist Church",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.38173
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T22:56:51.292Z",
+        "endTimestamp": "2018-02-08T23:31:36.334Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476325100,
+      "centerLngE7": -1174855989,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476343900,
+        "longitudeE7": -1174851050,
+        "placeId": "ChIJiUU_a-8XnlQRTCcfyhuQ9O8",
+        "address": "5010 W Garden Springs Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.8099655
+      }, {
+        "latitudeE7": 476312239,
+        "longitudeE7": -1174877863,
+        "placeId": "ChIJVahyNOYXnlQRSWs0DIwTvxM",
+        "address": "5325 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.40721196
+      }, {
+        "latitudeE7": 476316800,
+        "longitudeE7": -1174886760,
+        "placeId": "ChIJ3ZlU0-cXnlQRkqeRmoomfKM",
+        "address": "5321 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.4010927
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476325300,
+        "longitudeE7": -1174855363
+      },
+      "endLocation": {
+        "latitudeE7": 477034148,
+        "longitudeE7": -1174458033
+      },
+      "duration": {
+        "startTimestamp": "2018-02-08T23:31:36.334Z",
+        "endTimestamp": "2018-02-09T00:01:11.289Z"
+      },
+      "distance": 6327,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 94.56139985600079
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.8977422195807394
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.166981973028605
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476320304,
+          "lngE7": -1174855422
+        }, {
+          "latE7": 476325111,
+          "lngE7": -1174782638
+        }, {
+          "latE7": 477034759,
+          "lngE7": -1174458007
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476321368,
+          "lngE7": -1174781688,
+          "accuracyMeters": 68,
+          "timestamp": "2018-02-08T23:33:30.335Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477034148,
+          "longitudeE7": -1174458033,
+          "accuracyMetres": 68
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-09T00:01:11.289Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477034148,
+        "longitudeE7": -1174458033,
+        "placeId": "ChIJq69TIW4ZnlQRGa32BMDUW_8",
+        "address": "2323 W Olympic Ave, Spokane, WA 99205-5756, United States",
+        "name": "Century 21 Premier Services",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 68.30651
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T00:01:11.289Z",
+        "endTimestamp": "2018-02-09T00:23:57.917Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477037471,
+      "centerLngE7": -1174457857,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477041510,
+        "longitudeE7": -1174446640,
+        "placeId": "ChIJ4xZCSW4ZnlQRJFs-DLjevE0",
+        "name": "Debora L Bradshaw Child Care",
+        "locationConfidence": 14.338176
+      }, {
+        "latitudeE7": 477046156,
+        "longitudeE7": -1174483115,
+        "placeId": "ChIJ6yheIXAZnlQRUg_7KGXRN0k",
+        "address": "2518 W Queen Ave, Spokane, WA 99205, USA",
+        "name": "De Caro\u0027s Custodial Services",
+        "locationConfidence": 7.003557
+      }, {
+        "latitudeE7": 477019250,
+        "longitudeE7": -1174442690,
+        "placeId": "ChIJeXHs_W0ZnlQRt-g5Z-p9vxI",
+        "name": "HK Window Fashions",
+        "locationConfidence": 2.4954495
+      }, {
+        "latitudeE7": 477041530,
+        "longitudeE7": -1174463500,
+        "placeId": "ChIJdz-V0m8ZnlQR9qaxKEz708c",
+        "address": "2403 W Queen Ave, Spokane, WA 99205, USA",
+        "locationConfidence": 2.1282985
+      }, {
+        "latitudeE7": 477037580,
+        "longitudeE7": -1174463500,
+        "placeId": "ChIJwXpBKW4ZnlQRxyDBebt4u4E",
+        "address": "2404 W Olympic Ave, Spokane, WA 99205, USA",
+        "locationConfidence": 1.542911
+      }, {
+        "latitudeE7": 477042550,
+        "longitudeE7": -1174456163,
+        "placeId": "ChIJMxu8NG4ZnlQRZh6Ku1ZSMGE",
+        "address": "2321 W Queen Ave, Spokane, WA 99205, USA",
+        "locationConfidence": 1.1430693
+      }, {
+        "latitudeE7": 477039780,
+        "longitudeE7": -1174421910,
+        "placeId": "ChIJ56WC9G4ZnlQRCqL4ht-gaI0",
+        "address": "5017 N Elgin St, Spokane, WA 99205, USA",
+        "name": "Applied Mechanical/Appliance Installation",
+        "locationConfidence": 0.87509656
+      }, {
+        "latitudeE7": 477032800,
+        "longitudeE7": -1174421130,
+        "placeId": "ChIJPY6tBnOcn1QRL7_395S1FhM",
+        "name": "FIT4MOM Spokane",
+        "locationConfidence": 0.8690147
+      }, {
+        "latitudeE7": 477026660,
+        "longitudeE7": -1174480172,
+        "placeId": "ChIJYwmCx3EZnlQRvqbINayW-uk",
+        "address": "2508 W Wabash Ave, Spokane, WA 99205, USA",
+        "name": "C \u0026 R Investigations",
+        "locationConfidence": 0.6427729
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 54,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477034148,
+        "longitudeE7": -1174458033
+      },
+      "endLocation": {
+        "latitudeE7": 477469114,
+        "longitudeE7": -1175005978
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T00:23:57.917Z",
+        "endTimestamp": "2018-02-09T00:44:23.713Z"
+      },
+      "distance": 241,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.23894938150869
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.782518579515086
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.3995997695476539
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477034759,
+          "lngE7": -1174458007
+        }, {
+          "latE7": 477470321,
+          "lngE7": -1175004425
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477469114,
+          "longitudeE7": -1175005978,
+          "accuracyMetres": 68
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-09T00:44:23.713Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477469114,
+        "longitudeE7": -1175005978,
+        "placeId": "ChIJg52sTAcbnlQRuG5E-Xbl0-8",
+        "address": "W Shawnee Ave, Spokane, Washington 99208, United States",
+        "name": "Sundance 3 LS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 30.997835
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T00:44:23.713Z",
+        "endTimestamp": "2018-02-09T15:04:00.889Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477491580,
+      "centerLngE7": -1175010590,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477501370,
+        "longitudeE7": -1174994570,
+        "placeId": "ChIJo7m4XwYbnlQRLtTyg61Ak54",
+        "address": "10124 N Ridgecrest Dr, Spokane, WA 99208, USA",
+        "name": "River Haven Adult Family Home",
+        "locationConfidence": 21.748894
+      }, {
+        "latitudeE7": 477486311,
+        "longitudeE7": -1175003021,
+        "placeId": "ChIJRxwOIAcbnlQRnXv0YO4bCoY",
+        "address": "10019 N Quinault Ct, Spokane, WA 99208, USA",
+        "name": "Craig P Thielman",
+        "locationConfidence": 21.506704
+      }, {
+        "latitudeE7": 477480185,
+        "longitudeE7": -1174984254,
+        "placeId": "ChIJlyNADAcbnlQRIwB7qtGb62M",
+        "address": "9910 N Ridgecrest Dr, Spokane, WA 99208, USA",
+        "name": "Hydro Imaging",
+        "locationConfidence": 18.608757
+      }, {
+        "latitudeE7": 477491784,
+        "longitudeE7": -1174995199,
+        "placeId": "ChIJ059z4AUbnlQRVBD7fmbF0LI",
+        "address": "10103 W Ridgecrest Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 2.7286103
+      }, {
+        "latitudeE7": 477476420,
+        "longitudeE7": -1174985920,
+        "placeId": "ChIJFfCFbAcbnlQRbZAjNzch5XA",
+        "name": "Scentsy Independent Consultant",
+        "locationConfidence": 1.6795524
+      }, {
+        "latitudeE7": 477469456,
+        "longitudeE7": -1175005235,
+        "placeId": "ChIJk9sZkqgbnlQR6V-dqM8v7wo",
+        "address": "6721 W Shawnee Ave, Spokane, WA 99208, USA",
+        "name": "Red Apple",
+        "locationConfidence": 1.1822747
+      }, {
+        "latitudeE7": 477483693,
+        "longitudeE7": -1175000282,
+        "placeId": "ChIJ1_87IgcbnlQRsZJfmnveT_s",
+        "name": "r.com, Inc.",
+        "locationConfidence": 0.9745278
+      }, {
+        "latitudeE7": 477496129,
+        "longitudeE7": -1175046530,
+        "placeId": "ChIJqwU6egEbnlQREw2KDo8EUpQ",
+        "address": "9802 N Nine Mile Rd, Nine Mile Falls, WA 99026, USA",
+        "locationConfidence": 0.57284427
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 26,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477469114,
+        "longitudeE7": -1175005978
+      },
+      "endLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T15:04:00.889Z",
+        "endTimestamp": "2018-02-09T15:29:12.229Z"
+      },
+      "distance": 362,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.58449640777162
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.3534411008742913
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.662258919567393
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477470321,
+          "lngE7": -1175004425
+        }, {
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476858215,
+          "longitudeE7": -1173915176,
+          "accuracyMetres": 68
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-09T15:29:12.229Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 East Euclid Avenue, Spokane, Washington 99207, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 86.68786
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T15:29:12.229Z",
+        "endTimestamp": "2018-02-09T22:12:36.386Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476892404,
+      "centerLngE7": -1173944453,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476907050,
+        "longitudeE7": -1173951240,
+        "placeId": "ChIJuZ_EVygZnlQRh13sXD5iEUc",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Gordon",
+        "locationConfidence": 4.235082
+      }, {
+        "latitudeE7": 476882955,
+        "longitudeE7": -1173953073,
+        "placeId": "ChIJDYcUBCgZnlQRaO-dewh3UA8",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "City Fuel",
+        "locationConfidence": 2.37664
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJA80EAygZnlQRyw1ScUQRjUI",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Super Quickstop",
+        "locationConfidence": 1.3678838
+      }, {
+        "latitudeE7": 476921011,
+        "longitudeE7": -1173947255,
+        "placeId": "ChIJRa9QGCkZnlQRsUqeK5gheQM",
+        "address": "3716 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Kiev Market",
+        "locationConfidence": 0.7945311
+      }, {
+        "latitudeE7": 476910130,
+        "longitudeE7": -1173952560,
+        "placeId": "ChIJC5ll-SgZnlQRb3DxLao14w0",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Gordon",
+        "locationConfidence": 0.6113418
+      }, {
+        "latitudeE7": 476885770,
+        "longitudeE7": -1173952440,
+        "placeId": "ChIJVcrUGigZnlQRjqQ6GFDmAvA",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.57763356
+      }, {
+        "latitudeE7": 476884410,
+        "longitudeE7": -1173951390,
+        "placeId": "ChIJ6VmpBCgZnlQRh-qIhqDGisM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Bridgeport",
+        "locationConfidence": 0.5358076
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 0.50187206
+      }, {
+        "latitudeE7": 476883092,
+        "longitudeE7": -1173953388,
+        "placeId": "ChIJp9pZASgZnlQRhC_KpN4e6Jg",
+        "address": "3219 N Nevada St, Spokane, WA 99207, USA",
+        "name": "CONOCO",
+        "locationConfidence": 0.28741485
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176
+      },
+      "endLocation": {
+        "latitudeE7": 476324699,
+        "longitudeE7": -1174856925
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T22:12:36.386Z",
+        "endTimestamp": "2018-02-09T22:56:24.361Z"
+      },
+      "distance": 8938,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.09591076143903
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.583641560505615
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.5601553984088867
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }, {
+          "latE7": 476835441,
+          "lngE7": -1174476394
+        }, {
+          "latE7": 476324577,
+          "lngE7": -1174862976
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476324699,
+          "longitudeE7": -1174856925,
+          "accuracyMetres": 77
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-09T22:56:24.361Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476325190,
+        "longitudeE7": -1174856930,
+        "placeId": "ChIJpYxaAeYXnlQRd2RWq0XOEcA",
+        "address": "5116 W Garden Springs Rd, Spokane, WA 99224-5324, United States",
+        "name": "Grace Slavic Baptist Church",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.18815
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T22:56:24.361Z",
+        "endTimestamp": "2018-02-09T23:33:23.178Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476324940,
+      "centerLngE7": -1174856870,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476343900,
+        "longitudeE7": -1174851050,
+        "placeId": "ChIJiUU_a-8XnlQRTCcfyhuQ9O8",
+        "address": "5010 W Garden Springs Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.8870532
+      }, {
+        "latitudeE7": 476312239,
+        "longitudeE7": -1174877863,
+        "placeId": "ChIJVahyNOYXnlQRSWs0DIwTvxM",
+        "address": "5325 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.46965572
+      }, {
+        "latitudeE7": 476316800,
+        "longitudeE7": -1174886760,
+        "placeId": "ChIJ3ZlU0-cXnlQRkqeRmoomfKM",
+        "address": "5321 W Lawton Rd, Spokane, WA 99224, USA",
+        "locationConfidence": 0.4551445
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476324699,
+        "longitudeE7": -1174856925
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-09T23:33:23.178Z",
+        "endTimestamp": "2018-02-10T00:09:32.253Z"
+      },
+      "distance": 15559,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.51339205393225
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.9789770321477251
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.94140791850367
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476324577,
+          "lngE7": -1174862976
+        }, {
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477545930,
+          "longitudeE7": -1174845450,
+          "accuracyMetres": 16
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-10T00:09:32.253Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "endLocation": {
+        "latitudeE7": 477559997,
+        "longitudeE7": -1174842758
+      },
+      "duration": {
+        "startTimestamp": "2018-02-10T00:09:32.253Z",
+        "endTimestamp": "2018-02-11T03:13:12.636Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477545035,
+          "lngE7": -1174887109,
+          "accuracyMeters": 500,
+          "timestamp": "2018-02-10T00:13:39.757Z"
+        }, {
+          "latE7": 477545035,
+          "lngE7": -1174887109,
+          "accuracyMeters": 500,
+          "timestamp": "2018-02-10T05:09:22.467Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 682.5430423242925
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559997,
+        "longitudeE7": -1174842758
+      },
+      "endLocation": {
+        "latitudeE7": 477551127,
+        "longitudeE7": -1174832282
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T03:13:12.636Z",
+        "endTimestamp": "2018-02-11T03:16:57.744Z"
+      },
+      "distance": 114,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.5374207936626
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.166172416538329
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.6656486909042079
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477551155,
+          "lngE7": -1174831085
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477549286,
+        "longitudeE7": -1174830108
+      },
+      "endLocation": {
+        "latitudeE7": 477533708,
+        "longitudeE7": -1174811710
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T03:28:05.709Z",
+        "endTimestamp": "2018-02-11T03:36:41.450Z"
+      },
+      "distance": 210,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 87.60184350027068
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.1851097233619985
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.048126679955882
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477549247,
+          "lngE7": -1174830932
+        }, {
+          "latE7": 477533264,
+          "lngE7": -1174811706
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477530669,
+        "longitudeE7": -1174808121
+      },
+      "endLocation": {
+        "latitudeE7": 477508576,
+        "longitudeE7": -1174782032
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T04:52:43.609Z",
+        "endTimestamp": "2018-02-11T05:03:51.423Z"
+      },
+      "distance": 296,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.41440448705474
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.4080525078549
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.1674757379139
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477533226,
+          "lngE7": -1174808044
+        }, {
+          "latE7": 477502365,
+          "lngE7": -1174791564
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477498877,
+        "longitudeE7": -1174770579
+      },
+      "endLocation": {
+        "latitudeE7": 477465768,
+        "longitudeE7": -1174731487
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T05:13:44.104Z",
+        "endTimestamp": "2018-02-11T05:28:30.552Z"
+      },
+      "distance": 456,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.36486532841693
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.764775918362472
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.313981749602099
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477493629,
+          "lngE7": -1174778213
+        }, {
+          "latE7": 477464294,
+          "lngE7": -1174732818
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477443630,
+        "longitudeE7": -1174705353
+      },
+      "endLocation": {
+        "latitudeE7": 477424617,
+        "longitudeE7": -1174682911
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T17:37:13.944Z",
+        "endTimestamp": "2018-02-11T17:45:08.684Z"
+      },
+      "distance": 261,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 87.71209924357312
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.817735916548045
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.6082954702611634
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477437133,
+          "lngE7": -1174693069
+        }, {
+          "latE7": 477423667,
+          "lngE7": -1174682693
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477423262,
+        "longitudeE7": -1174681312
+      },
+      "endLocation": {
+        "latitudeE7": 477414495,
+        "longitudeE7": -1174670964
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T20:07:01.712Z",
+        "endTimestamp": "2018-02-11T20:11:50.799Z"
+      },
+      "distance": 124,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.64319206807964
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.268964049165251
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.3694654300519655
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477423820,
+          "lngE7": -1174681472
+        }, {
+          "latE7": 477414665,
+          "lngE7": -1174669342
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477412576,
+        "longitudeE7": -1174668698
+      },
+      "endLocation": {
+        "latitudeE7": 477353037,
+        "longitudeE7": -1174598438
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T23:22:53.630Z",
+        "endTimestamp": "2018-02-11T23:41:45.749Z"
+      },
+      "distance": 845,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 87.06719132063532
+      }, {
+        "activityType": "WALKING",
+        "probability": 8.12660771858254
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.7045337337524076
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477412567,
+          "lngE7": -1174668884
+        }, {
+          "latE7": 477371215,
+          "lngE7": -1174598236
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477353037,
+        "longitudeE7": -1174598438
+      },
+      "endLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "duration": {
+        "startTimestamp": "2018-02-11T23:41:45.749Z",
+        "endTimestamp": "2018-02-12T15:08:10.393Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477545035,
+          "lngE7": -1174887109,
+          "accuracyMeters": 500,
+          "timestamp": "2018-02-12T01:33:36.589Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3347.4943387254293
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-12T15:08:10.393Z",
+        "endTimestamp": "2018-02-12T16:00:37Z"
+      },
+      "distance": 4472,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.64242751428114
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 5.209285358741488
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.4367382563386575
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477553253,
+          "lngE7": -1174854583
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 21
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-12T16:00:37Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 96.05123,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-12T16:00:37Z",
+        "endTimestamp": "2018-02-12T22:23:53Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476858033,
+      "centerLngE7": -1173913400,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 3.007861,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.497107,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173890050,
+        "placeId": "ChIJj4grM9cYnlQRcMJxX0ktsoI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.16468787
+      }, {
+        "latitudeE7": 476867290,
+        "longitudeE7": -1173952980,
+        "placeId": "ChIJIbB3GNgYnlQRpOV9mC_UJig",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Dalton (Gonzaga Prep)",
+        "locationConfidence": 0.08446784
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.07569091
+      }, {
+        "latitudeE7": 476857740,
+        "longitudeE7": -1173894900,
+        "placeId": "ChIJ_zjfHtcYnlQRydjJOAadUOk",
+        "address": "3007 N Perry St, Spokane, WA 99207, USA",
+        "name": "Jesuit Manresa SJ School",
+        "locationConfidence": 0.021898173
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.020203544
+      }, {
+        "latitudeE7": 476861120,
+        "longitudeE7": -1173947760,
+        "placeId": "ChIJnTeZOtgYnlQRkM0HzHz8Yqs",
+        "address": "3018 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Hopkins Auto Sales \u0026 Subaru Repair",
+        "locationConfidence": 0.016119933
+      }, {
+        "latitudeE7": 476860520,
+        "longitudeE7": -1173949360,
+        "placeId": "ChIJffrwtHcinlQR5DRd4uZIF5Y",
+        "address": "3808 N Sullivan Rd #12p, Spokane Valley, WA 99216, USA",
+        "name": "LINC Foods",
+        "locationConfidence": 0.011330711
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-12T22:23:53Z",
+        "endTimestamp": "2018-02-13T00:41:49Z"
+      },
+      "distance": 22991,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 86.72417781652813
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 5.543071516735519
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.547771966938329
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 476320266,
+          "lngE7": -1174852066
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476322676,
+          "lngE7": -1174852050,
+          "accuracyMeters": 13,
+          "timestamp": "2018-02-12T22:57:57Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 22
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-13T00:41:49Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 86.62751
+      },
+      "duration": {
+        "startTimestamp": "2018-02-13T00:41:49Z",
+        "endTimestamp": "2018-02-13T14:44:41Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477563138,
+      "centerLngE7": -1174845400,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 10.129521
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 2.3489072
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.5609046
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.19534221
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.13781668
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477559704,
+        "longitudeE7": -1174842836
+      },
+      "duration": {
+        "startTimestamp": "2018-02-13T14:44:41Z",
+        "endTimestamp": "2018-02-14T00:20:31Z"
+      },
+      "distance": 23308,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.74341604395038
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.9059922018361184
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.380274669824332
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559704,
+          "longitudeE7": -1174842836,
+          "accuracyMetres": 16
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-14T00:20:31Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 86.99751
+      },
+      "duration": {
+        "startTimestamp": "2018-02-14T00:20:31Z",
+        "endTimestamp": "2018-02-14T14:48:28Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562400,
+      "centerLngE7": -1174845856,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 9.9704895
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 2.2282324
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.5013761
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.16981274
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.13257429
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-14T14:48:28Z",
+        "endTimestamp": "2018-02-14T16:55:02Z"
+      },
+      "distance": 11194,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.64469174826796
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.224767492172375
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.0373501067043915
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477006607,
+          "lngE7": -1174116439
+        }, {
+          "latE7": 476862373,
+          "lngE7": -1173909149
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477006237,
+          "lngE7": -1174117283,
+          "accuracyMeters": 13,
+          "timestamp": "2018-02-14T16:04:32.399Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 19
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-14T16:55:02Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 96.915886,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-14T16:55:02Z",
+        "endTimestamp": "2018-02-14T21:40:49Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476857260,
+      "centerLngE7": -1173911140,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 2.1320746,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.55310136,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173890050,
+        "placeId": "ChIJj4grM9cYnlQRcMJxX0ktsoI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.19359565
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.067707814
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.030647738
+      }, {
+        "latitudeE7": 476857740,
+        "longitudeE7": -1173894900,
+        "placeId": "ChIJ_zjfHtcYnlQRydjJOAadUOk",
+        "address": "3007 N Perry St, Spokane, WA 99207, USA",
+        "name": "Jesuit Manresa SJ School",
+        "locationConfidence": 0.029589867
+      }, {
+        "latitudeE7": 476861120,
+        "longitudeE7": -1173947760,
+        "placeId": "ChIJnTeZOtgYnlQRkM0HzHz8Yqs",
+        "address": "3018 N Nevada St, Spokane, WA 99207, USA",
+        "name": "Hopkins Auto Sales \u0026 Subaru Repair",
+        "locationConfidence": 0.01539766
+      }, {
+        "latitudeE7": 476860520,
+        "longitudeE7": -1173949360,
+        "placeId": "ChIJffrwtHcinlQR5DRd4uZIF5Y",
+        "address": "3808 N Sullivan Rd #12p, Spokane Valley, WA 99216, USA",
+        "name": "LINC Foods",
+        "locationConfidence": 0.011983379
+      }, {
+        "latitudeE7": 476863765,
+        "longitudeE7": -1173944438,
+        "placeId": "ChIJkX4OJtgYnlQRTRKN5ka16kU",
+        "address": "1007 E Euclid Ave, Spokane, WA 99207, USA",
+        "name": "Century Link",
+        "locationConfidence": 0.010690934
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476860249,
+        "longitudeE7": -1173913505
+      },
+      "endLocation": {
+        "latitudeE7": 477561032,
+        "longitudeE7": -1174844178
+      },
+      "duration": {
+        "startTimestamp": "2018-02-14T21:40:49Z",
+        "endTimestamp": "2018-02-14T23:57:37Z"
+      },
+      "distance": 10449,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.16030584347033
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.664891273471899
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.2283127807263874
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862525,
+          "lngE7": -1173909530
+        }, {
+          "latE7": 477561340,
+          "lngE7": -1174848403
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477561032,
+          "longitudeE7": -1174844178,
+          "accuracyMetres": 37
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-14T23:57:37Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477561032,
+        "longitudeE7": -1174844178
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-14T23:57:37Z",
+        "endTimestamp": "2018-02-19T17:53:40Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477563542,
+          "lngE7": -1174844987,
+          "accuracyMeters": 19,
+          "timestamp": "2018-02-15T14:45:58Z"
+        }, {
+          "latE7": 477569141,
+          "lngE7": -1174847913,
+          "accuracyMeters": 28,
+          "timestamp": "2018-02-15T15:59:25Z"
+        }, {
+          "latE7": 477562433,
+          "lngE7": -1174851760,
+          "accuracyMeters": 10,
+          "timestamp": "2018-02-16T00:22:45Z"
+        }, {
+          "latE7": 477563246,
+          "lngE7": -1174836177,
+          "accuracyMeters": 16,
+          "timestamp": "2018-02-17T21:44:50Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 353.4698282055324
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477562289,
+        "longitudeE7": -1174850328
+      },
+      "duration": {
+        "startTimestamp": "2018-02-19T17:53:40Z",
+        "endTimestamp": "2018-02-19T23:33:36Z"
+      },
+      "distance": 15096,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.58908328979942
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.176675282053348
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.2647541652951892
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477562255,
+          "lngE7": -1174848327
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477562289,
+          "longitudeE7": -1174850328,
+          "accuracyMetres": 24
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-19T23:33:36Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 82.06582
+      },
+      "duration": {
+        "startTimestamp": "2018-02-19T23:33:36Z",
+        "endTimestamp": "2018-02-20T14:56:36Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562350,
+      "centerLngE7": -1174847800,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 14.633619
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 2.4412625
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.42861316
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.24441807
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.18626733
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477562545,
+        "longitudeE7": -1174846754
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-20T14:56:36Z",
+        "endTimestamp": "2018-02-20T16:24:15Z"
+      },
+      "distance": 10994,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.78459042036074
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.053052902596776
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.4645980103121499
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562561,
+          "lngE7": -1174848251
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 168
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-20T16:24:15Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.78154,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-20T16:24:15Z",
+        "endTimestamp": "2018-02-20T20:56:48Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476857060,
+      "centerLngE7": -1173912780,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 0.7563965,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.14337695,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173890050,
+        "placeId": "ChIJj4grM9cYnlQRcMJxX0ktsoI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.098621346
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.0839433
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-20T20:56:48Z",
+        "endTimestamp": "2018-02-20T23:58:35Z"
+      },
+      "distance": 10485,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.80078398174494
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.198665859818182
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.28577779917064333
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 166
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-20T23:58:35Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 88.18401
+      },
+      "duration": {
+        "startTimestamp": "2018-02-20T23:58:35Z",
+        "endTimestamp": "2018-02-21T14:46:57Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477561908,
+      "centerLngE7": -1174845892,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 10.030653
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.88705254
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.35221693
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.3190262
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.22703865
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476889599,
+        "longitudeE7": -1173947400
+      },
+      "duration": {
+        "startTimestamp": "2018-02-21T14:46:57Z",
+        "endTimestamp": "2018-02-21T15:32:41.235Z"
+      },
+      "distance": 9919,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 86.47563915398518
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.824481332276578
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.3806084324188665
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 476890869,
+          "lngE7": -1173951797
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476889599,
+          "longitudeE7": -1173947400,
+          "accuracyMetres": 45
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-21T15:32:41.235Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476889599,
+        "longitudeE7": -1173947400
+      },
+      "endLocation": {
+        "latitudeE7": 476860093,
+        "longitudeE7": -1173908027
+      },
+      "duration": {
+        "startTimestamp": "2018-02-21T15:32:41.235Z",
+        "endTimestamp": "2018-02-21T15:38:54.396Z"
+      },
+      "distance": 594,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 46.01039482584121
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 30.502268311568482
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 22.40059711874159
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476900405,
+          "lngE7": -1173962707
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.061424,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-21T15:38:54.396Z",
+        "endTimestamp": "2018-02-21T20:41:22Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476860071,
+      "centerLngE7": -1173909514,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 0.99850684,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.5647282,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173890050,
+        "placeId": "ChIJj4grM9cYnlQRcMJxX0ktsoI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.123576686
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.10348432
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477564556,
+        "longitudeE7": -1174846573
+      },
+      "duration": {
+        "startTimestamp": "2018-02-21T20:41:22Z",
+        "endTimestamp": "2018-02-22T01:52:52Z"
+      },
+      "distance": 12585,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 86.6540342834492
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.952165824444896
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.713433215559947
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477563591,
+          "lngE7": -1174848709
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477564556,
+          "longitudeE7": -1174846573,
+          "accuracyMetres": 219
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-22T01:52:52Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 85.41956
+      },
+      "duration": {
+        "startTimestamp": "2018-02-22T01:52:52Z",
+        "endTimestamp": "2018-02-22T16:17:25Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477563042,
+      "centerLngE7": -1174846142,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 12.396128
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 1.062457
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.445034
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.4032674
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.2735517
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 72,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-22T16:17:25Z",
+        "endTimestamp": "2018-02-22T17:01:21Z"
+      },
+      "distance": 11138,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.16683559701875
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.9589371167659267
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.43879146494248383
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477079315,
+          "lngE7": -1174540100
+        }, {
+          "latE7": 476862373,
+          "lngE7": -1173909149
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477079329,
+          "lngE7": -1174540900,
+          "accuracyMeters": 12,
+          "timestamp": "2018-02-22T16:39:13.390Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 203
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-22T17:01:21Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.62142,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-22T17:01:21Z",
+        "endTimestamp": "2018-02-22T17:47:14Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476855200,
+      "centerLngE7": -1173913733,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 0.8903755,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.1173039
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.10193503,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.10183743
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-22T17:47:14Z",
+        "endTimestamp": "2018-02-23T00:50:21Z"
+      },
+      "distance": 10610,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.18835937915813
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.522786588333326
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.1153610255482533
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 166
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-23T00:50:21Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 85.98024
+      },
+      "duration": {
+        "startTimestamp": "2018-02-23T00:50:21Z",
+        "endTimestamp": "2018-02-23T14:59:33Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562582,
+      "centerLngE7": -1174845736,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 11.423087
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 1.5942075
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.39341784
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.3682163
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.2408282
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 72,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476861886,
+        "longitudeE7": -1173908215
+      },
+      "duration": {
+        "startTimestamp": "2018-02-23T14:59:33Z",
+        "endTimestamp": "2018-02-23T15:39:18Z"
+      },
+      "distance": 11324,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.58896390681674
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.4140835879925178
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.7426844357460334
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476861886,
+          "longitudeE7": -1173908215,
+          "accuracyMetres": 171
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-23T15:39:18Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.454926,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-23T15:39:18Z",
+        "endTimestamp": "2018-02-23T20:45:36Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476858640,
+      "centerLngE7": -1173912380,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 1.0077292,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.23604618,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.09885706
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.091192566
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477562512,
+        "longitudeE7": -1174845488
+      },
+      "duration": {
+        "startTimestamp": "2018-02-23T20:45:36Z",
+        "endTimestamp": "2018-02-24T00:04:25Z"
+      },
+      "distance": 10471,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 93.34273123143325
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.118845858522193
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.1467690403232584
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477562561,
+          "lngE7": -1174848251
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477562512,
+          "longitudeE7": -1174845488,
+          "accuracyMetres": 166
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-24T00:04:25Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 87.407875
+      },
+      "duration": {
+        "startTimestamp": "2018-02-24T00:04:25Z",
+        "endTimestamp": "2018-02-24T18:47:22Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477561820,
+      "centerLngE7": -1174845220,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 10.007083
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 1.5947148
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.37978947
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.35720375
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.25333324
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-24T18:47:22Z",
+        "endTimestamp": "2018-02-25T01:19:25Z"
+      },
+      "distance": 14974,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.4160659511769
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.305394234039046
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.3696976200465585
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 169
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-25T01:19:25Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477562327,
+        "longitudeE7": -1174841801
+      },
+      "duration": {
+        "startTimestamp": "2018-02-25T01:19:25Z",
+        "endTimestamp": "2018-02-26T14:52:20Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477565678,
+          "lngE7": -1174840142,
+          "accuracyMeters": 57,
+          "timestamp": "2018-02-25T06:04:04Z"
+        }, {
+          "latE7": 477562104,
+          "lngE7": -1174851704,
+          "accuracyMeters": 28,
+          "timestamp": "2018-02-26T04:41:46Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 240.44094526361357
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477562327,
+        "longitudeE7": -1174841801
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-26T14:52:20Z",
+        "endTimestamp": "2018-02-26T16:05:10Z"
+      },
+      "distance": 10934,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.66554447054347
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.9393319698552722
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.5841360899727794
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562484,
+          "lngE7": -1174848251
+        }, {
+          "latE7": 477119331,
+          "lngE7": -1173953323
+        }, {
+          "latE7": 476862373,
+          "lngE7": -1173909149
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 171
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-26T16:05:10Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.56012,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-26T16:05:10Z",
+        "endTimestamp": "2018-02-26T19:23:26Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476857125,
+      "centerLngE7": -1173914400,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 0.98586196,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.10785298,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.085531436
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.07919588
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-26T19:23:26Z",
+        "endTimestamp": "2018-02-27T00:26:14.409Z"
+      },
+      "distance": 10826,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.22109999872755
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.422341643048274
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.9747227786951211
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477007713,
+          "lngE7": -1174205169
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 163
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-27T00:26:14.409Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 87.49933
+      },
+      "duration": {
+        "startTimestamp": "2018-02-27T00:26:14.409Z",
+        "endTimestamp": "2018-02-27T15:01:43Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562205,
+      "centerLngE7": -1174845674,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 10.574398
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.95840377
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.37646648
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.34663448
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.24476708
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-27T15:01:43Z",
+        "endTimestamp": "2018-02-27T16:10:02Z"
+      },
+      "distance": 11091,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.95838902911325
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.531429404602669
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.8559677389737412
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477150039,
+          "lngE7": -1174108810
+        }, {
+          "latE7": 476862373,
+          "lngE7": -1173909149
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476857250,
+          "longitudeE7": -1173913250,
+          "accuracyMetres": 169
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-27T16:10:02Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.4013,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-27T16:10:02Z",
+        "endTimestamp": "2018-02-27T19:59:07Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476858975,
+      "centerLngE7": -1173913488,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 1.0670862,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.18018994,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.09665834
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.08648375
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-27T19:59:07Z",
+        "endTimestamp": "2018-02-28T01:02:40Z"
+      },
+      "distance": 14826,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 94.77343990956854
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.3335772520917075
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.348604781714919
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 476845130,
+          "lngE7": -1173894424
+        }, {
+          "latE7": 476835327,
+          "lngE7": -1173966293
+        }, {
+          "latE7": 477007713,
+          "lngE7": -1174272613
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476859373,
+          "lngE7": -1173917264,
+          "accuracyMeters": 15,
+          "timestamp": "2018-02-27T19:59:07Z"
+        }, {
+          "latE7": 476834051,
+          "lngE7": -1173963714,
+          "accuracyMeters": 13,
+          "timestamp": "2018-02-27T22:34:02Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 165
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-28T01:02:40Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 85.42602
+      },
+      "duration": {
+        "startTimestamp": "2018-02-28T01:02:40Z",
+        "endTimestamp": "2018-02-28T15:07:18Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562729,
+      "centerLngE7": -1174846121,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562408,
+        "longitudeE7": -1174849701,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 12.474395
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 1.0434803
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.41683996
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.37815407
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.26111555
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 72,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477562030,
+        "longitudeE7": -1174845598
+      },
+      "endLocation": {
+        "latitudeE7": 476828614,
+        "longitudeE7": -1173910549
+      },
+      "duration": {
+        "startTimestamp": "2018-02-28T15:07:18Z",
+        "endTimestamp": "2018-02-28T15:38:31.837Z"
+      },
+      "distance": 13631,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 83.28475149672525
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 11.893363874693414
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.7824403629122156
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562103,
+          "lngE7": -1174848327
+        }, {
+          "latE7": 477007827,
+          "lngE7": -1174541702
+        }, {
+          "latE7": 476976890,
+          "lngE7": -1174539718
+        }, {
+          "latE7": 476935195,
+          "lngE7": -1174407196
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173907241
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476976884,
+          "lngE7": -1174542557,
+          "accuracyMeters": 15,
+          "timestamp": "2018-02-28T15:20:19Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476828614,
+          "longitudeE7": -1173910549,
+          "accuracyMetres": 45
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-02-28T15:38:31.837Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476828614,
+        "longitudeE7": -1173910549
+      },
+      "endLocation": {
+        "latitudeE7": 476859560,
+        "longitudeE7": -1173907268
+      },
+      "duration": {
+        "startTimestamp": "2018-02-28T15:38:31.837Z",
+        "endTimestamp": "2018-02-28T15:43:02Z"
+      },
+      "distance": 344,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 83.28475149672525
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 11.893363874693414
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.7824403629122156
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562103,
+          "lngE7": -1174848327
+        }, {
+          "latE7": 477007827,
+          "lngE7": -1174541702
+        }, {
+          "latE7": 476976890,
+          "lngE7": -1174539718
+        }, {
+          "latE7": 476935195,
+          "lngE7": -1174407196
+        }, {
+          "latE7": 476862106,
+          "lngE7": -1173907241
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250,
+        "placeId": "ChIJsY9dbdcYnlQRXhr7cE1bdug",
+        "address": "1224 E Euclid Ave, Spokane, Washington 99207, United States",
+        "name": "Gonzaga Preparatory School",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.95668,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-02-28T15:43:02Z",
+        "endTimestamp": "2018-02-28T22:13:58Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 476859733,
+      "centerLngE7": -1173909244,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476858215,
+        "longitudeE7": -1173915176,
+        "placeId": "ChIJq76YaNcYnlQRvHO3_ogy7VA",
+        "address": "1224 E Euclid Ave, Spokane, WA 99207, USA",
+        "locationConfidence": 1.1082017,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476860697,
+        "longitudeE7": -1173905200,
+        "placeId": "ChIJc2COD9cYnlQRN-OOgvm0MiA",
+        "address": "E Fairview Ave, Spokane, WA 99207, USA",
+        "name": "Admissions Office/Counseling Center",
+        "locationConfidence": 0.5048285,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476843720,
+        "longitudeE7": -1173892030,
+        "placeId": "ChIJ1Q1cM9cYnlQRpabsN3mMvC8",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Perry @ North Foothills",
+        "locationConfidence": 0.13031024
+      }, {
+        "latitudeE7": 476861580,
+        "longitudeE7": -1173951270,
+        "placeId": "ChIJLciOOtgYnlQRqAK8C6hT3aI",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Euclid (Gonzaga Prep)",
+        "locationConfidence": 0.09575896
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476857250,
+        "longitudeE7": -1173913250
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2018-02-28T22:13:58Z",
+        "endTimestamp": "2018-03-01T00:03:29.409Z"
+      },
+      "distance": 11904,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 94.84598449038302
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.6966352525250805
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.9600850391923001
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476862106,
+          "lngE7": -1173908462
+        }, {
+          "latE7": 477151641,
+          "lngE7": -1174037933
+        }, {
+          "latE7": 477150878,
+          "lngE7": -1174088134
+        }, {
+          "latE7": 477150764,
+          "lngE7": -1174216156
+        }, {
+          "latE7": 477370910,
+          "lngE7": -1174542541
+        }, {
+          "latE7": 477371559,
+          "lngE7": -1174662704
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477150990,
+          "lngE7": -1174208963,
+          "accuracyMeters": 4,
+          "timestamp": "2018-02-28T22:40:51Z"
+        }, {
+          "latE7": 477371913,
+          "lngE7": -1174542575,
+          "accuracyMeters": 12,
+          "timestamp": "2018-02-28T22:49:22Z"
+        }, {
+          "latE7": 477371532,
+          "lngE7": -1174719397,
+          "accuracyMeters": 15,
+          "timestamp": "2018-02-28T23:28:03Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250,
+          "accuracyMetres": 154
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-03-01T00:03:29.409Z"
+      }
+    }
+  }]
+}

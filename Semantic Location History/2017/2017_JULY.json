@@ -1,0 +1,2942 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477562081,
+        "longitudeE7": -1174844976
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2017-07-03T23:36:41.197Z",
+        "endTimestamp": "2017-07-04T03:16:49.542Z"
+      },
+      "distance": 32471,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.47643495561321
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.8813849156480407
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.4497783685590007
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562179,
+          "lngE7": -1174848327
+        }, {
+          "latE7": 478228111,
+          "lngE7": -1176502151
+        }, {
+          "latE7": 477388954,
+          "lngE7": -1174844818
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 477390260,
+          "lngE7": -1174841970,
+          "accuracyMeters": 45,
+          "timestamp": "2017-07-04T03:07:43.187Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477562314,
+          "longitudeE7": -1174844880,
+          "accuracyMetres": 20
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-04T03:16:49.542Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 98.038704
+      },
+      "duration": {
+        "startTimestamp": "2017-07-04T03:16:49.542Z",
+        "endTimestamp": "2017-07-05T22:57:11.192Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477562230,
+      "centerLngE7": -1174845165,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 1.4317608
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.26123756
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.20374885
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.03885662
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.02569481
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 476534469,
+        "longitudeE7": -1174013220
+      },
+      "duration": {
+        "startTimestamp": "2017-07-05T22:57:11.192Z",
+        "endTimestamp": "2017-07-05T23:28:43.482Z"
+      },
+      "distance": 15410,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.28802502434296
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.0961821769637012
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.8651078079406923
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 476716308,
+          "lngE7": -1174174270
+        }, {
+          "latE7": 476535758,
+          "lngE7": -1174013214
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476716323,
+          "lngE7": -1174175261,
+          "accuracyMeters": 27,
+          "timestamp": "2017-07-05T23:20:26.797Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476534469,
+          "longitudeE7": -1174013220
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-05T23:28:43.482Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476533807,
+        "longitudeE7": -1174012062,
+        "placeId": "ChIJC9PvSWIYnlQR4verE5w_ryg",
+        "address": "616 E 3rd Ave, Spokane, Washington 99202, United States",
+        "name": "All Lines Insurance Inc",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 78.24273
+      },
+      "duration": {
+        "startTimestamp": "2017-07-05T23:28:43.482Z",
+        "endTimestamp": "2017-07-05T23:34:50.245Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 476534475,
+      "centerLngE7": -1174013700,
+      "visitConfidence": 59,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476533020,
+        "longitudeE7": -1174029060,
+        "placeId": "ChIJgXNfr_d5CEER90LoBKgb7VE",
+        "address": "502 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "Spokane Uniform House",
+        "locationConfidence": 5.3947916
+      }, {
+        "latitudeE7": 476533807,
+        "longitudeE7": -1174012062,
+        "placeId": "ChIJA6CU6YUYnlQRst7obdJA3eY",
+        "address": "616 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "Parie Dawn",
+        "locationConfidence": 4.402282
+      }, {
+        "latitudeE7": 476528580,
+        "longitudeE7": -1174035480,
+        "placeId": "ChIJQy6O1GIYnlQR8vk8yWu2kgo",
+        "address": "324 S Sherman St # B, Spokane, WA 99202, USA",
+        "name": "Werschler Aesthetics",
+        "locationConfidence": 2.279551
+      }, {
+        "latitudeE7": 476538237,
+        "longitudeE7": -1174003215,
+        "placeId": "ChIJSej-Vo8YnlQR0fHlpWJD8K8",
+        "address": "701 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "New Horizon Counseling Services",
+        "locationConfidence": 1.8401083
+      }, {
+        "latitudeE7": 476538237,
+        "longitudeE7": -1174003215,
+        "placeId": "ChIJSej-Vo8YnlQR0fHlpWJD8K8",
+        "address": "701 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "New Horizon Care Center, Inc",
+        "locationConfidence": 1.0102087
+      }, {
+        "latitudeE7": 476538030,
+        "longitudeE7": -1174017390,
+        "placeId": "ChIJb_Dv7YUYnlQRsIqm2UvaoTc",
+        "address": "601 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "A1a Inc",
+        "locationConfidence": 0.82689667
+      }, {
+        "latitudeE7": 476543401,
+        "longitudeE7": -1174016713,
+        "placeId": "ChIJP4EWi4UYnlQR-33WTeRfmGw",
+        "address": "604 E 2nd Ave, Spokane, WA 99202, USA",
+        "name": "Perfection Tire \u0026 Auto Repair",
+        "locationConfidence": 0.81029665
+      }, {
+        "latitudeE7": 476538730,
+        "longitudeE7": -1174010300,
+        "placeId": "ChIJKXNTkoUYnlQRFe7wd3ZPnmQ",
+        "address": "625 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "Advanced Paging \u0026 Communications Inc",
+        "locationConfidence": 0.5059607
+      }, {
+        "latitudeE7": 476532853,
+        "longitudeE7": -1174026458,
+        "placeId": "ChIJj3q35oUYnlQRF3IuiGgUVX8",
+        "address": "510 E 3rd Ave, Spokane, WA 99202, USA",
+        "name": "Storhaug Engineering",
+        "locationConfidence": 0.36532822
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 60,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476533807,
+        "longitudeE7": -1174012062
+      },
+      "endLocation": {
+        "latitudeE7": 476549190,
+        "longitudeE7": -1174001030
+      },
+      "duration": {
+        "startTimestamp": "2017-07-05T23:34:50.245Z",
+        "endTimestamp": "2017-07-05T23:36:53.759Z"
+      },
+      "distance": 222,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 66.87002674774358
+      }, {
+        "activityType": "WALKING",
+        "probability": 29.247485678169383
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.5103598698110425
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476535758,
+          "lngE7": -1174012069
+        }, {
+          "latE7": 476549148,
+          "lngE7": -1174005737
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476549190,
+          "longitudeE7": -1174001030
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-05T23:36:53.759Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476549190,
+        "longitudeE7": -1174001030,
+        "placeId": "ChIJG_JDgIUYnlQRRVQqmkDpazQ",
+        "address": "701 East 2nd Avenue, Spokane, WA 99202-2203, United States",
+        "name": "Divine\u0027s Auto Center",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 46.80518
+      },
+      "duration": {
+        "startTimestamp": "2017-07-05T23:36:53.759Z",
+        "endTimestamp": "2017-07-05T23:47:34.997Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 476551448,
+      "centerLngE7": -1174005187,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476553440,
+        "longitudeE7": -1174003320,
+        "placeId": "ChIJZ8ZKg48YnlQR-O-ZmEbo5Bo",
+        "address": "704 E Pacific Ave, Spokane, WA 99202, USA",
+        "name": "Fleet Ej",
+        "locationConfidence": 23.689898
+      }, {
+        "latitudeE7": 476549325,
+        "longitudeE7": -1174001129,
+        "placeId": "ChIJ0Qh2gI8YnlQRi_scP1rHVJg",
+        "address": "701 E 2nd Ave, Spokane, WA 99202, USA",
+        "name": "Conoco",
+        "locationConfidence": 13.220899
+      }, {
+        "latitudeE7": 476553724,
+        "longitudeE7": -1174008671,
+        "placeId": "ChIJsVUdeI8YnlQRmaHBOBEfALg",
+        "address": "628 E Pacific Ave, Spokane, WA 99202, USA",
+        "name": "Spokane Diesel Pump Repair",
+        "locationConfidence": 5.8517084
+      }, {
+        "latitudeE7": 476558310,
+        "longitudeE7": -1174001597,
+        "placeId": "ChIJXdxLl48YnlQRffspfXYHyok",
+        "address": "703 E Pacific Ave, Spokane, WA 99202, USA",
+        "name": "Preedy\u0027s Tire \u0026 Automotive",
+        "locationConfidence": 5.4044333
+      }, {
+        "latitudeE7": 476543401,
+        "longitudeE7": -1174016713,
+        "placeId": "ChIJP4EWi4UYnlQR-33WTeRfmGw",
+        "address": "604 E 2nd Ave, Spokane, WA 99202, USA",
+        "name": "Perfection Tire \u0026 Auto Repair",
+        "locationConfidence": 1.5143422
+      }, {
+        "latitudeE7": 476546850,
+        "longitudeE7": -1174004720,
+        "placeId": "ChIJXznZgIUYnlQR7Z7VXV4KpHE",
+        "address": "Spokane, WA 99202, USA",
+        "name": "2nd @ Hatch",
+        "locationConfidence": 0.39810407
+      }, {
+        "latitudeE7": 476553370,
+        "longitudeE7": -1173998480,
+        "placeId": "ChIJJ8RHnKoYnlQR5y_lwYC4ttI",
+        "address": "714 E Pacific Ave, Spokane, WA 99202, USA",
+        "name": "Performance Radiator",
+        "locationConfidence": 0.33689657
+      }, {
+        "latitudeE7": 476569258,
+        "longitudeE7": -1174015806,
+        "placeId": "ChIJq6xLs48YnlQRTE7og5QulLU",
+        "address": "636 E Sprague Ave, Spokane, WA 99202, USA",
+        "name": "Becker Buick GMC",
+        "locationConfidence": 0.24768397
+      }, {
+        "latitudeE7": 476577689,
+        "longitudeE7": -1173997852,
+        "placeId": "ChIJOZ42LI4YnlQRyb7O8Mzz-MM",
+        "address": "715 E Sprague Ave, Spokane, WA 99202, USA",
+        "name": "Spokane Community Justice Center",
+        "locationConfidence": 0.10443268
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 35,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476554551,
+        "longitudeE7": -1174006083
+      },
+      "endLocation": {
+        "latitudeE7": 476602157,
+        "longitudeE7": -1174141643
+      },
+      "duration": {
+        "startTimestamp": "2017-07-05T23:47:34.997Z",
+        "endTimestamp": "2017-07-06T00:01:47.036Z"
+      },
+      "distance": 1976,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 70.08836098290516
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 23.974786612561
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.8616101536497816
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476554565,
+          "lngE7": -1174005889
+        }, {
+          "latE7": 476601715,
+          "lngE7": -1174141616
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476602157,
+          "longitudeE7": -1174141643
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T00:01:47.036Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476598515,
+        "longitudeE7": -1174156290,
+        "placeId": "ChIJNeHc6IoYnlQRZw4rrOwVEbg",
+        "address": "259 W Spokane Falls Blvd, Spokane, WA 99201, United States",
+        "name": "FedEx Office Print \u0026 Ship Center",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 51.32074
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T00:01:47.036Z",
+        "endTimestamp": "2017-07-06T00:15:34.578Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 476600392,
+      "centerLngE7": -1174151350,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476598506,
+        "longitudeE7": -1174152244,
+        "placeId": "ChIJMRSA5ooYnlQREAjjUh824pY",
+        "address": "245 W Spokane Falls Blvd, Spokane, WA 99205, USA",
+        "name": "Azteca Mexican Restaurants",
+        "locationConfidence": 27.40806,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476607832,
+        "longitudeE7": -1174129778,
+        "placeId": "ChIJe5vwwIoYnlQRDVRCkgPG4UM",
+        "address": "334 W Spokane Falls Blvd, Spokane, WA 99201, USA",
+        "name": "Spokane Convention Center",
+        "locationConfidence": 18.339834
+      }, {
+        "latitudeE7": 476620637,
+        "longitudeE7": -1174191283,
+        "placeId": "ChIJmQPOXfUYnlQRhM9J9smbbtk",
+        "address": "507 N Howard St, Spokane, WA 99201, USA",
+        "name": "Riverfront Park",
+        "locationConfidence": 0.91456753
+      }, {
+        "latitudeE7": 476598214,
+        "longitudeE7": -1174141856,
+        "placeId": "ChIJP_2y4ooYnlQRaVmFYMYgzX0",
+        "address": "217 W Spokane Falls Blvd, Spokane, WA 99201, USA",
+        "name": "Park Tower Apartments",
+        "locationConfidence": 0.24723293
+      }, {
+        "latitudeE7": 476596426,
+        "longitudeE7": -1174170534,
+        "placeId": "ChIJn7CgvooYnlQRk3YFLgGvJgE",
+        "address": "333 W Spokane Falls Blvd, Spokane, WA 99201, USA",
+        "name": "The Davenport Grand, Autograph Collection",
+        "locationConfidence": 0.14083436
+      }, {
+        "latitudeE7": 476593730,
+        "longitudeE7": -1174127490,
+        "placeId": "ChIJAaQCqYsYnlQRlQ_tWGmJPYo",
+        "address": "44 W Main Ave, Spokane, WA 99201, USA",
+        "name": "Main Market Co-op",
+        "locationConfidence": 0.075974055
+      }, {
+        "latitudeE7": 476598691,
+        "longitudeE7": -1174137184,
+        "placeId": "ChIJK55UG4sYnlQRyB2louFIW-0",
+        "address": "207 W Spokane Falls Blvd, Spokane, WA 99201, USA",
+        "name": "Chili\u0027s Grill \u0026 Bar",
+        "locationConfidence": 0.051490273
+      }, {
+        "latitudeE7": 476597476,
+        "longitudeE7": -1174126455,
+        "placeId": "ChIJ8aiPDosYnlQRzDe5_vwKt0U",
+        "address": "33 W Spokane Falls Blvd, Spokane, WA 99201, USA",
+        "name": "Best Western Plus City Center",
+        "locationConfidence": 0.050188724
+      }, {
+        "latitudeE7": 476597075,
+        "longitudeE7": -1174156222,
+        "placeId": "ChIJD2yD64oYnlQRnI5ytf0iJ3M",
+        "address": "1121 N Argonne Rd b211, Spokane Valley, WA 99212, USA",
+        "name": "Securitas Security Services USA",
+        "locationConfidence": 0.042796962
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 37,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476601635,
+        "longitudeE7": -1174153244
+      },
+      "endLocation": {
+        "latitudeE7": 476815931,
+        "longitudeE7": -1174055263
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T00:15:34.578Z",
+        "endTimestamp": "2017-07-06T00:29:29.223Z"
+      },
+      "distance": 4041,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 95.84623050813835
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.8640872627142784
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.9295078349968674
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476601371,
+          "lngE7": -1174153213
+        }, {
+          "latE7": 476826972,
+          "lngE7": -1174171066
+        }, {
+          "latE7": 476807975,
+          "lngE7": -1174055252
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476827637,
+          "lngE7": -1174171059,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-06T00:23:43.442Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476815931,
+          "longitudeE7": -1174055263
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T00:29:29.223Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476815931,
+        "longitudeE7": -1174055263,
+        "placeId": "ChIJffVkJN4YnlQRueeV7BzxHxo",
+        "address": "210 E North Foothills Dr, Spokane, Washington 99207-2155, United States",
+        "name": "Yoke\u0027s Fresh Market (Foothills)",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 92.99621
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T00:29:29.223Z",
+        "endTimestamp": "2017-07-06T00:41:52.515Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476817578,
+      "centerLngE7": -1174056244,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476814108,
+        "longitudeE7": -1174058982,
+        "placeId": "ChIJffVkJN4YnlQRFueXZn1QL-U",
+        "name": "USPS",
+        "locationConfidence": 6.7668004
+      }, {
+        "latitudeE7": 476816890,
+        "longitudeE7": -1174038590,
+        "placeId": "ChIJsy7Na94YnlQRXE_YHjD0Fbw",
+        "address": "322 E North Foothills Dr, Spokane, WA 99207, USA",
+        "name": "Self Storage of Spokane",
+        "locationConfidence": 0.10701156
+      }, {
+        "latitudeE7": 476805425,
+        "longitudeE7": -1174076849,
+        "placeId": "ChIJ_xrTwOAYnlQRwv1t7De-Kr0",
+        "address": "144 E Jackson Ave, Spokane, WA 99207, USA",
+        "name": "Pacific Pride Fuel",
+        "locationConfidence": 0.04719211
+      }, {
+        "latitudeE7": 476820890,
+        "longitudeE7": -1174082270,
+        "placeId": "ChIJ4XiGYuAYnlQRq65kvmheNec",
+        "address": "202 E North Foothills Dr, Spokane, WA 99207, USA",
+        "name": "Foothills Automall",
+        "locationConfidence": 0.029234882
+      }, {
+        "latitudeE7": 476834478,
+        "longitudeE7": -1174066960,
+        "placeId": "ChIJH7ifwd8YnlQRlT159Drc2uE",
+        "address": "2714 N Mayfair St, Spokane, WA 99207, USA",
+        "name": "Department of Transportation",
+        "locationConfidence": 0.011735504
+      }, {
+        "latitudeE7": 476822810,
+        "longitudeE7": -1174103940,
+        "placeId": "ChIJ-ZHYUeAYnlQRHIWT5Z0wVaM",
+        "address": "2624 North Division Rd. (@ Division and Ruby @ Division and, N Ruby St, Spokane, WA 99207, USA",
+        "name": "Staples",
+        "locationConfidence": 0.0071020476
+      }, {
+        "latitudeE7": 476825254,
+        "longitudeE7": -1174061974,
+        "placeId": "ChIJfcc2zd8YnlQReSjB_Qkx7CI",
+        "address": "206 E North Foothills Dr, Spokane, WA 99207, USA",
+        "name": "Chrome Personal Training Centre",
+        "locationConfidence": 0.0064782016
+      }, {
+        "latitudeE7": 476823369,
+        "longitudeE7": -1174063766,
+        "placeId": "ChIJTwLM1d8YnlQRG_FWfrB3iY8",
+        "name": "Northwest Merchandise Liquidators",
+        "locationConfidence": 0.003966725
+      }, {
+        "latitudeE7": 476792287,
+        "longitudeE7": -1174087037,
+        "placeId": "ChIJx7kyLOcYnlQRixlhuth8E8M",
+        "address": "101 E Montgomery Ave, Spokane, WA 99207, USA",
+        "name": "Camp Chevrolet Cadillac",
+        "locationConfidence": 0.002239845
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476819026,
+        "longitudeE7": -1174050019
+      },
+      "endLocation": {
+        "latitudeE7": 476819820,
+        "longitudeE7": -1173516600
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T00:41:52.515Z",
+        "endTimestamp": "2017-07-06T00:50:14.803Z"
+      },
+      "distance": 4508,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.87721879132857
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.7710448787930673
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.587659258549579
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476826095,
+          "lngE7": -1174047775
+        }, {
+          "latE7": 476819801,
+          "lngE7": -1173517379
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 476819820,
+          "longitudeE7": -1173516600
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T00:50:14.803Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 476819820,
+        "longitudeE7": -1173516600,
+        "placeId": "ChIJ09xEvTkfnlQRHc68Niacvwo",
+        "address": "Spokane, WA 99217, USA",
+        "name": "Myrtle @ Marietta",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 88.48181
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T00:50:14.803Z",
+        "endTimestamp": "2017-07-06T03:02:23.991Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 476818980,
+      "centerLngE7": -1173488460,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 476813888,
+        "longitudeE7": -1173480909,
+        "placeId": "ChIJT2s34DgfnlQR9cNLQZhI1Tg",
+        "name": "Travis Cadez",
+        "locationConfidence": 5.7998686
+      }, {
+        "latitudeE7": 476825370,
+        "longitudeE7": -1173468580,
+        "placeId": "ChIJk4ZBLTkfnlQROn9st9-VFgY",
+        "address": "4324 E Buckeye Ave, Spokane, WA 99217, USA",
+        "name": "CSI: Computer Services and Information",
+        "locationConfidence": 1.9173154
+      }, {
+        "latitudeE7": 476812253,
+        "longitudeE7": -1173477525,
+        "placeId": "ChIJS7gj5jgfnlQRAqKGgqtsDLY",
+        "address": "4222 E Marietta Ave, Spokane, WA 99217, USA",
+        "name": "Ivan Dragomir",
+        "locationConfidence": 1.6535182
+      }, {
+        "latitudeE7": 476816310,
+        "longitudeE7": -1173495810,
+        "placeId": "ChIJzQxSATkfnlQRHnmi8KT5O_Y",
+        "address": "4117 E Marietta Ave, Spokane, WA 99217, USA",
+        "locationConfidence": 0.6013299
+      }, {
+        "latitudeE7": 476839504,
+        "longitudeE7": -1173479189,
+        "placeId": "ChIJi-UM6QvgYVMRwSLlmJdJb5Y",
+        "name": "National Roofing LLC",
+        "locationConfidence": 0.54309416
+      }, {
+        "latitudeE7": 476817477,
+        "longitudeE7": -1173511867,
+        "placeId": "ChIJiTFQzeQYnlQRENshdUa8hHA",
+        "address": "4005 E Marietta Ave, Spokane, WA 99217, USA",
+        "name": "Covenant of Grace",
+        "locationConfidence": 0.4106056
+      }, {
+        "latitudeE7": 476820860,
+        "longitudeE7": -1173483170,
+        "placeId": "ChIJjVuMIjkfnlQRu34XjPqyQf4",
+        "address": "2711 Miami Ct, Spokane, WA 99217, USA",
+        "locationConfidence": 0.15032412
+      }, {
+        "latitudeE7": 477779343,
+        "longitudeE7": -1174046885,
+        "placeId": "ChIJ7Sx55fMfnlQRUNp44RiRGsw",
+        "address": "Spokane River, United States",
+        "name": "Spokane River",
+        "locationConfidence": 0.14208107,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 476818560,
+        "longitudeE7": -1173482080,
+        "placeId": "ChIJXS9fHzkfnlQREhOPwmUrh50",
+        "address": "2701 Miami Ct, Spokane, WA 99217, USA",
+        "locationConfidence": 0.13956197
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 69,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 476819820,
+        "longitudeE7": -1173516600
+      },
+      "endLocation": {
+        "latitudeE7": 477562319,
+        "longitudeE7": -1174844885
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T03:02:23.991Z",
+        "endTimestamp": "2017-07-06T03:35:28.733Z"
+      },
+      "distance": 13589,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 70.02561625814623
+      }, {
+        "activityType": "WALKING",
+        "probability": 23.71045953702258
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.7702782536410364
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 476819801,
+          "lngE7": -1173517379
+        }, {
+          "latE7": 477562408,
+          "lngE7": -1174848251
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477562319,
+          "longitudeE7": -1174844885
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T03:35:28.733Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 95.53874
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T03:35:28.733Z",
+        "endTimestamp": "2017-07-06T18:49:59.686Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477562603,
+      "centerLngE7": -1174846511,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 3.529633
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.69940925
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.13363345
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.063175134
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.03540725
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477049848,
+        "longitudeE7": -1173984343
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T18:49:59.686Z",
+        "endTimestamp": "2017-07-06T19:56:17.050Z"
+      },
+      "distance": 23337,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 62.87153139379724
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 31.618706051693803
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.686471403979935
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 476535415,
+          "lngE7": -1174091644
+        }, {
+          "latE7": 476740112,
+          "lngE7": -1174173507
+        }, {
+          "latE7": 476987037,
+          "lngE7": -1174113082
+        }, {
+          "latE7": 477048225,
+          "lngE7": -1173984375
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 476534856,
+          "lngE7": -1174091630,
+          "accuracyMeters": 29,
+          "timestamp": "2017-07-06T19:17:26.273Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477049848,
+          "longitudeE7": -1173984343
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T19:56:17.050Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477049875,
+        "longitudeE7": -1173985361,
+        "placeId": "ChIJrYVg6DQZnlQRC7mPU5kAXio",
+        "address": "715 East Crown Avenue, Spokane, Washington 99207-3306, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.64767
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T19:56:17.050Z",
+        "endTimestamp": "2017-07-06T22:02:21.282Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477049644,
+      "centerLngE7": -1173984424,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477040008,
+        "longitudeE7": -1173970048,
+        "placeId": "ChIJAUY4ozQZnlQRAB_FIU6lSNA",
+        "name": "Tom \u0026 Gerrys Airport Taxi",
+        "locationConfidence": 0.4517176
+      }, {
+        "latitudeE7": 477059349,
+        "longitudeE7": -1173984240,
+        "placeId": "ChIJhbsKJzUZnlQRZ_0ExdcWcA0",
+        "name": "advanced graffiti removal",
+        "locationConfidence": 0.4169938
+      }, {
+        "latitudeE7": 477032563,
+        "longitudeE7": -1173964762,
+        "placeId": "ChIJpd75XTMZnlQRpmqJCfUAoBk",
+        "address": "829 E Olympic Ave, Spokane, WA 99207, USA",
+        "name": "Regalado Publishing",
+        "locationConfidence": 0.40349182
+      }, {
+        "latitudeE7": 477038326,
+        "longitudeE7": -1173961813,
+        "placeId": "ChIJF-DpWDMZnlQRYjAMLj_ifDA",
+        "name": "Sara L Tingley Attorney at Law",
+        "locationConfidence": 0.38267866
+      }, {
+        "latitudeE7": 477024034,
+        "longitudeE7": -1173985051,
+        "placeId": "ChIJt6UrmzMZnlQR9aFv8BhGErE",
+        "address": "717 E Wabash Ave, Spokane, WA 99207, USA",
+        "name": "D-Sprinklers",
+        "locationConfidence": 0.28923085
+      }, {
+        "latitudeE7": 477055790,
+        "longitudeE7": -1173951550,
+        "placeId": "ChIJJwQ7OcsenlQRoQcbodLIh9w",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Everett",
+        "locationConfidence": 0.18009709
+      }, {
+        "latitudeE7": 477031700,
+        "longitudeE7": -1173952230,
+        "placeId": "ChIJ9xJ5TzMZnlQRKyagai3N4vM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Olympic",
+        "locationConfidence": 0.11064314
+      }, {
+        "latitudeE7": 477057870,
+        "longitudeE7": -1173952870,
+        "placeId": "ChIJrfuHO8senlQRLkVcGwT1A_A",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Everett",
+        "locationConfidence": 0.055175412
+      }, {
+        "latitudeE7": 477076600,
+        "longitudeE7": -1174002340,
+        "placeId": "ChIJIaLNWzUZnlQRIf0h_788yto",
+        "name": "Next Jen Inspections LLC",
+        "locationConfidence": 0.05337976
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477049875,
+        "longitudeE7": -1173985361
+      },
+      "endLocation": {
+        "latitudeE7": 477563622,
+        "longitudeE7": -1174847027
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T22:02:21.282Z",
+        "endTimestamp": "2017-07-06T22:25:06.409Z"
+      },
+      "distance": 10450,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.30768951606835
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.7422304115481918
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.6548814362171594
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477048225,
+          "lngE7": -1173985366
+        }, {
+          "latE7": 477563323,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477562931,
+          "longitudeE7": -1174848922,
+          "accuracyMetres": 24
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-06T22:26:54.509Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 96.09082
+      },
+      "duration": {
+        "startTimestamp": "2017-07-06T22:25:06.409Z",
+        "endTimestamp": "2017-07-11T21:48:48.179Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477563040,
+      "centerLngE7": -1174846301,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 2.9922054
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.62648684
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.1793959
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.083164625
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.027927801
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.57492
+      },
+      "duration": {
+        "startTimestamp": "2017-07-12T02:51:24.592Z",
+        "endTimestamp": "2017-07-12T19:21:19.840Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477562321,
+      "centerLngE7": -1174844987,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 1.9634447
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.29853246
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.11421068
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.03495865
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.013935095
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "endLocation": {
+        "latitudeE7": 477049875,
+        "longitudeE7": -1173985361
+      },
+      "duration": {
+        "startTimestamp": "2017-07-12T19:21:19.840Z",
+        "endTimestamp": "2017-07-12T20:19:47.420Z"
+      },
+      "distance": 8963,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.63494808103394
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.4003735548100602
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.0073760469158863
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }, {
+          "latE7": 477048225,
+          "lngE7": -1173985366
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477049875,
+          "longitudeE7": -1173985361
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-12T20:19:47.420Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477049875,
+        "longitudeE7": -1173985361,
+        "placeId": "ChIJrYVg6DQZnlQRC7mPU5kAXio",
+        "address": "715 East Crown Avenue, Spokane, Washington 99207-3306, United States",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 97.451744
+      },
+      "duration": {
+        "startTimestamp": "2017-07-12T20:19:47.420Z",
+        "endTimestamp": "2017-07-12T21:29:45.200Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477049568,
+      "centerLngE7": -1173984932,
+      "visitConfidence": 97,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477040008,
+        "longitudeE7": -1173970048,
+        "placeId": "ChIJAUY4ozQZnlQRAB_FIU6lSNA",
+        "name": "Tom \u0026 Gerrys Airport Taxi",
+        "locationConfidence": 0.5535989
+      }, {
+        "latitudeE7": 477032563,
+        "longitudeE7": -1173964762,
+        "placeId": "ChIJpd75XTMZnlQRpmqJCfUAoBk",
+        "address": "829 E Olympic Ave, Spokane, WA 99207, USA",
+        "name": "Regalado Publishing",
+        "locationConfidence": 0.48197606
+      }, {
+        "latitudeE7": 477059349,
+        "longitudeE7": -1173984240,
+        "placeId": "ChIJhbsKJzUZnlQRZ_0ExdcWcA0",
+        "name": "advanced graffiti removal",
+        "locationConfidence": 0.38977265
+      }, {
+        "latitudeE7": 477038326,
+        "longitudeE7": -1173961813,
+        "placeId": "ChIJF-DpWDMZnlQRYjAMLj_ifDA",
+        "name": "Sara L Tingley Attorney at Law",
+        "locationConfidence": 0.31351736
+      }, {
+        "latitudeE7": 477024034,
+        "longitudeE7": -1173985051,
+        "placeId": "ChIJt6UrmzMZnlQR9aFv8BhGErE",
+        "address": "717 E Wabash Ave, Spokane, WA 99207, USA",
+        "name": "D-Sprinklers",
+        "locationConfidence": 0.25738916
+      }, {
+        "latitudeE7": 477057870,
+        "longitudeE7": -1173952870,
+        "placeId": "ChIJrfuHO8senlQRLkVcGwT1A_A",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Everett",
+        "locationConfidence": 0.15486155
+      }, {
+        "latitudeE7": 477055790,
+        "longitudeE7": -1173951550,
+        "placeId": "ChIJJwQ7OcsenlQRoQcbodLIh9w",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Everett",
+        "locationConfidence": 0.15201704
+      }, {
+        "latitudeE7": 477031700,
+        "longitudeE7": -1173952230,
+        "placeId": "ChIJ9xJ5TzMZnlQRKyagai3N4vM",
+        "address": "Spokane, WA 99207, USA",
+        "name": "Nevada @ Olympic",
+        "locationConfidence": 0.13180928
+      }, {
+        "latitudeE7": 477076600,
+        "longitudeE7": -1174002340,
+        "placeId": "ChIJIaLNWzUZnlQRIf0h_788yto",
+        "name": "Next Jen Inspections LLC",
+        "locationConfidence": 0.10218726
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477049875,
+        "longitudeE7": -1173985361
+      },
+      "endLocation": {
+        "latitudeE7": 486121337,
+        "longitudeE7": -1168296955
+      },
+      "duration": {
+        "startTimestamp": "2017-07-12T21:29:45.200Z",
+        "endTimestamp": "2017-07-12T23:56:35Z"
+      },
+      "distance": 116918,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 97.31829391800512
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.1377583219178613
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.8600782635750666
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477048225,
+          "lngE7": -1173985366
+        }, {
+          "latE7": 486114730,
+          "lngE7": -1168302993
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 486121348,
+          "longitudeE7": -1168296797,
+          "accuracyMetres": 7
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-12T23:56:35Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 486176796,
+        "longitudeE7": -1168290993,
+        "placeId": "ChIJLcxtm2ewY1MRszP5XpMe01U",
+        "address": "314 Indian Creek Park Road, Coolin, Idaho 83821, United States",
+        "name": "Priest Lake State Park",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 99.52069,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-07-12T23:56:35Z",
+        "endTimestamp": "2017-07-13T20:29:07.662Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 486119442,
+      "centerLngE7": -1168306027,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 483365333,
+        "longitudeE7": -1161704820,
+        "placeId": "ChIJDSKqV3qzY1MRMhETO_jncmg",
+        "address": "Clark Fork, ID 83811, USA",
+        "name": "Kaniksu National Forest",
+        "locationConfidence": 0.2624177
+      }, {
+        "latitudeE7": 486068546,
+        "longitudeE7": -1168400140,
+        "placeId": "ChIJASD2MlqwY1MRmWL0pO7vq3c",
+        "address": "Indian Creek Bay, Idaho 83821, USA",
+        "name": "Indian Creek Bay",
+        "locationConfidence": 0.14901121
+      }, {
+        "latitudeE7": 486228964,
+        "longitudeE7": -1168159312,
+        "placeId": "ChIJPUvgpgywY1MRHnUrPclr5aA",
+        "address": "Indian Creek, Idaho 83821, USA",
+        "name": "Indian Creek",
+        "locationConfidence": 0.06787747
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 486121348,
+          "lngE7": -1168296797,
+          "accuracyMeters": 7,
+          "timestamp": "2017-07-12T23:56:35Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:22:08.775Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:22:29.601Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:23:11.744Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:27:02.181Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T00:27:38.866Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T00:33:39.631Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:34:41.813Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:36:49.856Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:37:33.140Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:38:40.625Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T00:39:40.391Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T00:40:02.301Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T00:40:43.966Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T00:45:00.667Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:46:00.675Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T00:50:03.945Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T00:52:32.064Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T00:59:12.443Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:00:01.629Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:06:07.641Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:10:03.936Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:10:51.065Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:11:52.778Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:16:15.268Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:22:27.741Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:29:00.639Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:30:01.697Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:35:54.784Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:39:32.318Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:40:00.304Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:43:24.282Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T01:47:23.165Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T01:48:01.808Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:52:33.407Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:55:01.149Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T01:59:54.550Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:00:33.761Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:04:58.761Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:05:43.737Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:06:19.152Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:06:52.814Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:07:25.737Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:08:28.612Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:08:57.111Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:09:41.527Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:11:49.184Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:12:30.148Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:17:09.290Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:18:08.889Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:21:53.417Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:24:11.823Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:26:18.625Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:26:54.171Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:31:16.135Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:35:49.099Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:36:50.688Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:37:21.970Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:39:26.886Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:39:50.959Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:41:06.557Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:47:24.392Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:47:40.717Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T02:54:06.655Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:01:28.713Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:03:18.227Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:06:04.120Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:07:12.491Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:10:06.151Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:14:35.644Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:15:04.449Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:21:04.771Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:23:03.949Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:29:11.722Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:35:40.241Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T03:41:50.658Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:48:00.169Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:53:33.961Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T03:55:01.629Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:01:09.328Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:07:10.612Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:13:31.072Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:19:56.913Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:25:59.633Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:28:15.592Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T04:30:23.401Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T04:32:25.856Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:38:37.191Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T04:38:42.769Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:39:07.562Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T04:41:11.259Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T04:43:12.136Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T04:45:12.460Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T04:47:42.166Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T04:49:43.561Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T05:07:18.175Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T05:32:00.945Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T05:44:58.888Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T05:45:57.228Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T05:51:34.420Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T05:57:36.767Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T06:03:38.827Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T06:09:57.543Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T06:16:06.529Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T06:22:11.388Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T06:28:11.154Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T06:34:11.180Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T06:40:11.399Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T06:46:24.827Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T06:52:26.644Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T06:58:28.524Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T07:05:15.172Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T07:11:14.503Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T07:17:36.621Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T07:23:39.049Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T07:29:42.730Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T07:36:08.077Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T07:42:28.362Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T07:48:45.712Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T07:55:21.724Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T08:01:22.112Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T08:07:55.007Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T08:13:55.025Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T08:20:06.418Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T08:26:08.633Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T08:32:17.702Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T08:38:18.934Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T08:44:20.668Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T08:50:50.381Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T08:56:51.506Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T09:02:57.313Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T09:08:59.789Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T09:14:59.508Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T09:21:00.554Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T09:27:25.065Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T09:34:03.365Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T09:40:04.043Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T09:46:29.785Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T09:53:04.493Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T09:59:06.808Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T10:05:07.762Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T10:11:11.601Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T10:17:14.543Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T10:23:14.397Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T10:29:15.643Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T10:35:18.068Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T10:41:17.881Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T10:47:41.452Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T10:53:39.720Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T11:00:13.952Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T11:06:15.330Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T11:12:50.592Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T11:19:30.601Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T11:25:31.602Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 21,
+          "timestamp": "2017-07-13T11:31:30.697Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T11:37:33.427Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T11:43:49.564Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T11:49:51.426Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T11:55:53.786Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T12:02:29.301Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T12:08:30.887Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T12:14:59.835Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T12:21:01.865Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T12:27:12.652Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 23,
+          "timestamp": "2017-07-13T12:33:14.833Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T12:39:15.692Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 22,
+          "timestamp": "2017-07-13T12:45:18.713Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 24,
+          "timestamp": "2017-07-13T12:51:18.249Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T12:57:19.494Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T13:03:16.106Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T13:09:26.105Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T13:15:25.815Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T16:19:42.356Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T16:20:56.872Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 32,
+          "timestamp": "2017-07-13T16:24:31.943Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 28,
+          "timestamp": "2017-07-13T16:27:49.907Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T16:31:08.841Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T16:34:33.603Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T16:37:52.020Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 30,
+          "timestamp": "2017-07-13T16:39:34.117Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 26,
+          "timestamp": "2017-07-13T17:04:39.556Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:06:10.952Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:12:05.726Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:18:33.605Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:22:27.474Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:23:08.835Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:29:20.338Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:35:21.966Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:41:40.047Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:47:39.522Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:53:39.692Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T17:59:59.302Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:06:43.229Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:13:18.878Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:19:42.672Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:25:45.232Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:31:45.647Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:43:53.020Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:50:29.228Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T18:56:33.535Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:02:35.692Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:08:34.318Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:15:06.108Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:21:04.126Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:27:13.789Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:33:50.648Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:39:49.834Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:46:01.502Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:52:05.809Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T19:58:05.788Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T20:04:09.221Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T20:10:23.756Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T20:16:33.669Z"
+        }, {
+          "latE7": 486119283,
+          "lngE7": -1168306617,
+          "accuracyMeters": 20,
+          "timestamp": "2017-07-13T20:22:35.099Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 378.78723054535567
+      },
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 95.92952
+      },
+      "duration": {
+        "startTimestamp": "2017-07-14T20:04:34.040Z",
+        "endTimestamp": "2017-07-29T19:33:54Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 477562710,
+      "centerLngE7": -1174845244,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 3.7762055
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.2220366
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.031786975
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.024264216
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.016190792
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 71.58443
+      },
+      "duration": {
+        "startTimestamp": "2017-07-30T18:17:26.376Z",
+        "endTimestamp": "2017-07-31T18:08:48.660Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562650,
+      "centerLngE7": -1174845144,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 27.201448
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 0.9017427
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.21255632
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.05700352
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.0428254
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 52,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477561980,
+        "longitudeE7": -1174842153
+      },
+      "endLocation": {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251
+      },
+      "duration": {
+        "startTimestamp": "2017-07-31T18:08:48.660Z",
+        "endTimestamp": "2017-07-31T20:26:06Z"
+      },
+      "distance": 5813,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.91997774320582
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.463175771107748
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.1774884225349376
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477562179,
+          "lngE7": -1174848327
+        }, {
+          "latE7": 477394638,
+          "lngE7": -1174160461
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477396480,
+          "longitudeE7": -1174157251
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-31T20:26:06Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJO4cGMA4cnlQRHdk43eAP7R8",
+        "address": "9001 N Country Homes Blvd, Spokane, Washington 99218-2072, United States",
+        "name": "MultiCare Rockwood Urgent Care Center - North",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 54.95244,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-07-31T20:26:06Z",
+        "endTimestamp": "2017-07-31T20:32:47Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 477395713,
+      "centerLngE7": -1174159400,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157249,
+        "placeId": "ChIJO4cGMA4cnlQRcU9ZNiCl_dE",
+        "address": "9001 N Country Homes Blvd, Spokane, WA 99218, USA",
+        "name": "MultiCare Rockwood Neursociences - Valley",
+        "locationConfidence": 39.247425,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJQVAyOiMdnlQRzJoQETTy9Sc",
+        "address": "605 E Holland Ave Suite 101, Spokane, WA 99218, USA",
+        "name": "MultiCare Rockwood Pediatrics - North",
+        "locationConfidence": 1.1223395,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJ9XFlIw4cnlQR9oYrAOrW770",
+        "address": "9001 N Country Homes Blvd, Spokane, WA 99218, USA",
+        "name": "Erika Valtinson, P.A",
+        "locationConfidence": 0.51224697,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJO4cGMA4cnlQRyDQvLUqzWTg",
+        "address": "9001 N Country Homes Blvd, Spokane, WA 99218, USA",
+        "name": "Dr. Timothy E. Crum, MD",
+        "locationConfidence": 0.40402287,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJC2PlddsdnlQRaYKa_7UaoCY",
+        "address": "605 E Holland Ave Suite 200, Spokane, WA 99218, USA",
+        "name": "Dr. Todd G. Gottschalk",
+        "locationConfidence": 0.28426564,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251,
+        "placeId": "ChIJO4cGMA4cnlQRzqJVNh6S37A",
+        "address": "9001 N Country Homes Blvd STE D, Spokane, WA 99218, USA",
+        "name": "Didier Mark E MD",
+        "locationConfidence": 0.21842092,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396481,
+        "longitudeE7": -1174157787,
+        "placeId": "ChIJO4cGMA4cnlQRc6s3F34IRps",
+        "address": "9001 N Country Homes Blvd, Spokane, WA 99218, USA",
+        "name": "Monica Blykowski-May, MD",
+        "locationConfidence": 0.20346838,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396727,
+        "longitudeE7": -1174158054,
+        "placeId": "ChIJ9XFlIw4cnlQRSP-T9f1F_G0",
+        "address": "605 E Holland Ave #200, Spokane, WA 99218, USA",
+        "name": "Dr. Daniel H. Stoop, MD",
+        "locationConfidence": 0.19242452,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 477396727,
+        "longitudeE7": -1174158054,
+        "placeId": "ChIJ24AGMA4cnlQRnMZgOwv1gm8",
+        "address": "9001 N Country Homes Blvd, Spokane, WA 99218, USA",
+        "name": "Dr. Holly J. Bassler, DO",
+        "locationConfidence": 0.15305194,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 40,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 477396480,
+        "longitudeE7": -1174157251
+      },
+      "endLocation": {
+        "latitudeE7": 477559430,
+        "longitudeE7": -1174842250
+      },
+      "duration": {
+        "startTimestamp": "2017-07-31T20:32:47Z",
+        "endTimestamp": "2017-07-31T21:30:02.540Z"
+      },
+      "distance": 5519,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 94.04892458061303
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.1974138939537466
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.4997693971144939
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 477394638,
+          "lngE7": -1174160461
+        }, {
+          "latE7": 477560844,
+          "lngE7": -1174848480
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 477559430,
+          "longitudeE7": -1174842250
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-07-31T21:30:02.540Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 477562361,
+        "longitudeE7": -1174845099,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 West Millbury Drive, Spokane, Washington 99208-8900, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1068450516
+        },
+        "locationConfidence": 70.48614
+      },
+      "duration": {
+        "startTimestamp": "2017-07-31T21:30:02.540Z",
+        "endTimestamp": "2017-08-01T00:04:21.144Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 477562430,
+      "centerLngE7": -1174844985,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 477562527,
+        "longitudeE7": -1174846069,
+        "placeId": "ChIJ21zwsgwbnlQRFeHbuiHOajc",
+        "address": "5108 W Millbury Dr, Spokane, WA 99208, USA",
+        "locationConfidence": 27.703259
+      }, {
+        "latitudeE7": 477568290,
+        "longitudeE7": -1174869420,
+        "placeId": "ChIJu15I3QwbnlQRx5tetD29xkQ",
+        "address": "5214 W Millbury Dr, Spokane, WA 99208, USA",
+        "name": "DKH Construction",
+        "locationConfidence": 1.3282351
+      }, {
+        "latitudeE7": 477545930,
+        "longitudeE7": -1174845450,
+        "placeId": "ChIJfUP2QgsbnlQRVjKwM4YvDcs",
+        "address": "5120 W Howesdale Dr, Spokane, WA 99208, USA",
+        "name": "Vadim Dimov",
+        "locationConfidence": 0.29636973
+      }, {
+        "latitudeE7": 477554019,
+        "longitudeE7": -1174883050,
+        "placeId": "ChIJyc8HZAwbnlQR9OMV7ehVveE",
+        "name": "Osman Agency",
+        "locationConfidence": 0.094487675
+      }, {
+        "latitudeE7": 477546869,
+        "longitudeE7": -1174883430,
+        "placeId": "ChIJnZNsdwwbnlQRHA9x3CRfX00",
+        "address": "10615 N Woodridge Dr, Spokane, WA 99208, USA",
+        "name": "Classic Tile \u0026 Pavers Inc",
+        "locationConfidence": 0.09150848
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 51,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}
