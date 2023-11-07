@@ -37,6 +37,7 @@ def get_start_end(df, start_date, end_date):
     my Google Maps timelineObject dataframe and prints
     indeces of instances from the desired dates.
     '''
+    start_end=[]
     #iterate through df
     for i in range(df.size):
         for key, val in df["timelineObjects"].iloc[i].items():
@@ -44,9 +45,10 @@ def get_start_end(df, start_date, end_date):
             if(key == "activitySegment"):
                 #print indeces of instances w/start or end date 
                 if start_date in val["duration"]["startTimestamp"]:
-                    print(i)
+                    start_end.append(i)
                 elif end_date in val["duration"]["startTimestamp"]:
-                    print(i)
+                    start_end.append(i)
+    return start_end
 
 
 
@@ -233,7 +235,7 @@ def dist_plot(first_half, second_half):
     plt.figure()
 
     #labels
-    plt.title("Daily Total Distance (km) Spent on Activity Segments in Madrid")
+    plt.title("Daily Total Distance (km) of Activity Segments in Madrid")
     plt.xlabel("Date")
     plt.ylabel("Distance (km)")
     plt.xticks([])
@@ -282,9 +284,21 @@ def decision_tree(X, X_train, y_train, X_test, y_test):
     dt_clf.fit(X_train, y_train) # "train"
     y_predicted = dt_clf.predict(X_test)
     acc = accuracy_score(y_test, y_predicted)
-    #print(y_predicted)
     print("accuracy :", acc)
 
     #plot tree
-    plt.figure(figsize=[20, 20])
+    plt.figure(figsize=[7, 7])
     tree.plot_tree(dt_clf, feature_names=X.columns, class_names={True:"Weekend", False:"Weekday"}, filled=True)
+
+def scatter_plot(xs, ys, title, xlabel, ylabel):
+    
+    plt.figure()
+
+    #labels
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    #plot
+    plt.scatter(xs, ys)
+    plt.show()
